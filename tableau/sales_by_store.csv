@@ -1,0 +1,55 @@
+store,store_nbr,city,state,type,sales
+Store 44 · Quito,44,Quito,Pichincha,A,62087553.0
+Store 45 · Quito,45,Quito,Pichincha,A,54498010.0
+Store 47 · Quito,47,Quito,Pichincha,A,50948310.0
+Store 3 · Quito,3,Quito,Pichincha,D,50481910.0
+Store 49 · Quito,49,Quito,Pichincha,A,43420096.0
+Store 46 · Quito,46,Quito,Pichincha,A,41896062.0
+Store 48 · Quito,48,Quito,Pichincha,A,35933130.0
+Store 51 · Guayaquil,51,Guayaquil,Guayas,A,32911490.0
+Store 8 · Quito,8,Quito,Pichincha,D,30494287.0
+Store 50 · Ambato,50,Ambato,Tungurahua,A,28653021.0
+Store 11 · Cayambe,11,Cayambe,Pichincha,B,28325558.0
+Store 7 · Quito,7,Quito,Pichincha,D,26952050.0
+Store 9 · Quito,9,Quito,Pichincha,B,26409441.0
+Store 6 · Quito,6,Quito,Pichincha,D,25183680.0
+Store 24 · Guayaquil,24,Guayaquil,Guayas,D,23767733.0
+Store 2 · Quito,2,Quito,Pichincha,D,21557389.0
+Store 39 · Cuenca,39,Cuenca,Azuay,B,20252193.0
+Store 37 · Cuenca,37,Cuenca,Azuay,D,19970636.0
+Store 27 · Daule,27,Daule,Guayas,D,19188021.0
+Store 4 · Quito,4,Quito,Pichincha,D,18909700.0
+Store 38 · Loja,38,Loja,Loja,D,18859999.0
+Store 40 · Machala,40,Machala,El Oro,C,18395757.0
+Store 28 · Guayaquil,28,Guayaquil,Guayas,E,18383155.0
+Store 17 · Quito,17,Quito,Pichincha,C,18030969.0
+Store 31 · Babahoyo,31,Babahoyo,Los Rios,B,17746873.0
+Store 34 · Guayaquil,34,Guayaquil,Guayas,B,17090734.0
+Store 43 · Esmeraldas,43,Esmeraldas,Esmeraldas,E,16391692.0
+Store 5 · Santo Domingo,5,Santo Domingo,Santo Domingo de los Tsachilas,D,15592405.0
+Store 36 · Libertad,36,Libertad,Guayas,E,15322431.0
+Store 41 · Machala,41,Machala,El Oro,D,14991039.0
+Store 33 · Quevedo,33,Quevedo,Los Rios,C,14178501.0
+Store 1 · Quito,1,Quito,Pichincha,D,14145013.0
+Store 18 · Quito,18,Quito,Pichincha,B,13259376.0
+Store 19 · Guaranda,19,Guaranda,Bolivar,C,13049510.0
+Store 20 · Quito,20,Quito,Pichincha,B,12920955.0
+Store 23 · Ambato,23,Ambato,Tungurahua,D,11651381.0
+Store 15 · Ibarra,15,Ibarra,Imbabura,C,11451270.0
+Store 25 · Salinas,25,Salinas,Santa Elena,D,11420998.0
+Store 14 · Riobamba,14,Riobamba,Chimborazo,C,11387919.0
+Store 53 · Manta,53,Manta,Manabi,D,11216167.0
+Store 54 · El Carmen,54,El Carmen,Manabi,C,11057483.0
+Store 16 · Santo Domingo,16,Santo Domingo,Santo Domingo de los Tsachilas,C,10986413.0
+Store 12 · Latacunga,12,Latacunga,Cotopaxi,C,10659218.0
+Store 13 · Latacunga,13,Latacunga,Cotopaxi,C,10523046.0
+Store 29 · Guayaquil,29,Guayaquil,Guayas,E,9725158.0
+Store 10 · Quito,10,Quito,Pichincha,C,9613906.0
+Store 21 · Santo Domingo,21,Santo Domingo,Santo Domingo de los Tsachilas,B,9255506.0
+Store 42 · Cuenca,42,Cuenca,Azuay,D,8945768.0
+Store 26 · Guayaquil,26,Guayaquil,Guayas,D,7755122.0
+Store 35 · Playas,35,Playas,Guayas,C,7676679.0
+Store 30 · Guayaquil,30,Guayaquil,Guayas,C,7382074.0
+Store 32 · Guayaquil,32,Guayaquil,Guayas,C,5951796.0
+Store 22 · Puyo,22,Puyo,Pastaza,C,4090202.0
+Store 52 · Manta,52,Manta,Manabi,A,2696170.0
