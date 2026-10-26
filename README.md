@@ -117,42 +117,48 @@ The solution employs a multi-model ensemble approach, comparing baseline methods
 - RMSE: Captures variance in forecast errors, important for inventory safety stock calculations
 
 **Validation Strategy**:
-- Time-based train-test split: 90% training (historical data), 10% testing (last 90 days)
-- No cross-validation: Maintains temporal structure
-- Walk-forward validation: Production deployment strategy for continuous retraining
-- Baseline comparison: All models compared against naive and seasonal naive forecasts
+- Time-based train-test split: ~94% training (historical data), ~6% testing (last 90 days)
+- No cross-validation: temporal structure is preserved — no data leakage
+- Single 90-day holdout: simulates a real 3-month forecast horizon
+- Walk-forward validation is described as the *recommended production retraining strategy*; it is not implemented in this notebook
+- Baseline comparison: all models compared against Naive and Seasonal Naive forecasts
 
 **Why These Metrics**:
 For retail inventory management, MAPE directly translates to inventory buffer requirements. A 10% MAPE implies maintaining 10% additional safety stock, making it the primary business metric. MAE and RMSE provide complementary technical perspectives on forecast accuracy.
 
 ## Results
 
-**Model Performance Summary** (Test Set - Last 90 Days):
+**Model Performance Summary** (Test Set — Last 90 Days, Kaggle Store Sales dataset):
 
-| Model | MAE ($) | RMSE ($) | MAPE (%) |
-|-------|---------|----------|----------|
-| Naive Forecast | 45,000 | 55,000 | 12.5 |
-| Seasonal Naive | 38,000 | 48,000 | 10.2 |
-| Moving Average (30-day) | 35,000 | 45,000 | 9.8 |
-| ARIMA (2,1,2) | 32,000 | 42,000 | 8.5 |
-| SARIMA (1,1,1)(1,1,1,7) | 28,000 | 36,000 | 7.2 |
-| Prophet | 25,000 | 33,000 | 6.8 |
-| Random Forest | 30,000 | 40,000 | 8.0 |
+| Model | MAPE (%) | Notes |
+|-------|----------|-------|
+| Prophet | **7.39** | Best model |
+| SARIMA (1,1,1)(1,1,1,7) | 7.72 | |
+| Seasonal Naive | 10.06 | Baseline |
+| Naive Forecast | 14.72 | Baseline |
+| Moving Average (30-day) | 15.74 | |
+| ARIMA (2,1,2) | 15.82 | |
+| Random Forest | — | Re-run notebook after leakage fix |
 
-**Best Model**: Prophet with 6.8% MAPE, $25,000 MAE, and $33,000 RMSE.
+> MAE and RMSE columns are omitted: they are denominated in the dataset's sales
+> unit and are only meaningful when read alongside the raw data file.
+
+**Best Model**: Prophet — 7.39% MAPE on the 90-day holdout, vs 10.06% for the Seasonal Naive baseline (26% relative improvement).
 
 **Key Insights**:
-1. Prophet outperforms statistical models by 1-2 percentage points in MAPE, likely due to automatic holiday handling and flexible seasonality patterns
-2. SARIMA shows strong performance for weekly seasonality capture (7.2% MAPE)
-3. Machine learning approach (Random Forest) performs comparably to ARIMA but requires extensive feature engineering
-4. All advanced models significantly outperform naive baselines (40-50% error reduction)
+1. Prophet outperforms all statistical models on this holdout (7.39% vs 7.72% SARIMA), benefiting from automatic holiday handling and multiplicative seasonality
+2. SARIMA captures weekly seasonality well and is the strongest purely statistical model
+3. ARIMA without seasonal terms performs near the Naive baseline on this dataset
+4. Random Forest initially showed 3.92% MAPE but this was due to data leakage (rolling/EMA features computed from same-day sales without a time shift); results are invalidated and must be regenerated after the fix
+5. Both Prophet and SARIMA beat the Seasonal Naive baseline by ~2.3 percentage points (26% relative reduction)
 
 **Limitations**:
-- Univariate approach: Does not leverage store-level or product-category-level patterns
-- Fixed parameters: No automatic hyperparameter optimization
-- Limited external features: Oil prices and detailed store characteristics not fully utilized
-- Forecast horizon: Optimized for 30-90 days; longer horizons may require different approaches
-- Computation time: Prophet requires 5+ minutes for full dataset training
+- Univariate approach: does not leverage store-level or product-category-level patterns
+- Fixed parameters: no automatic hyperparameter optimisation for ARIMA/SARIMA
+- Limited external features: oil prices and store characteristics not incorporated
+- Forecast horizon: optimised for the 90-day holdout; accuracy at longer horizons is untested
+- Single holdout: walk-forward validation (rolling-window refit) was not implemented; a single 90-day holdout may not fully represent production accuracy
+- Random Forest result pending re-evaluation after leakage fix
 
 ## Business / Real-World Impact
 
@@ -171,11 +177,14 @@ For retail inventory management, MAPE directly translates to inventory buffer re
 **Decision Support**:
 The forecasting system enables proactive decision-making rather than reactive responses. For example, inventory managers can maintain optimal stock levels before peak seasons, marketing teams can schedule promotions during historically low-sales periods, and operations can pre-allocate staff resources for high-demand periods.
 
-**ROI Calculation** (Example for $100M annual revenue):
-- Inventory cost reduction: $15M × 25% = $3.75M annually
-- Stockout reduction: $100M × 3% × 50% = $1.5M recovered revenue
-- Labor cost optimization: $20M × 12.5% = $2.5M savings
-- **Total Annual Impact: $7.75M**
+**ROI Illustration** (hypothetical — not derived from this dataset):
+
+For a retailer with $100M annual revenue, a system achieving sub-10% MAPE could
+yield rough order-of-magnitude savings in these areas (actual impact depends
+heavily on implementation, market, and operational baseline):
+- Inventory cost reduction: 20-30% of carrying costs
+- Stockout recovery: 40-50% reduction in lost-sale events
+- Labour scheduling: 10-15% reduction in unplanned overtime
 
 ## Project Structure
 
@@ -205,11 +214,11 @@ sales-forecasting-system/
 
 ## How to Run This Project
 
-**Prerequisites**: Python 3.8+, pip, git
+**Prerequisites**: Python 3.8+, pip
 
-**Step 1: Clone Repository**
+**Step 1: Clone or Download Repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/siddhantharsh/sales-forecasting-system.git
 cd sales-forecasting-system
 ```
 
@@ -244,6 +253,11 @@ Select Python kernel and run cells sequentially.
 
 **Step 6: Launch Dashboard (Optional)**
 ```bash
+# Option A: pass the path as an environment variable
+export SALES_DATA_PATH='/path/to/store-sales-time-series-forecasting'
+streamlit run app.py
+
+# Option B: launch normally and enter the path in the sidebar
 streamlit run app.py
 ```
 Access dashboard at `http://localhost:8501`

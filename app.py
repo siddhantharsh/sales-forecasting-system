@@ -73,9 +73,9 @@ page = st.sidebar.selectbox(
 
 # Data loading function
 @st.cache_data
-def load_data():
+def load_data(data_path):
     """Load and preprocess the sales data"""
-    DATA_PATH = '/path/to/store-sales-time-series-forecasting'  # Update this path to your dataset location
+    DATA_PATH = data_path
     
     try:
         # Load data
@@ -110,11 +110,32 @@ def load_data():
         st.error(f"Error loading data: {e}")
         return None, None, None
 
+# ── Data path ──────────────────────────────────────────────────────────────
+# Priority: 1) SALES_DATA_PATH env var  2) Sidebar text input
+import os
+_env_path = os.environ.get('SALES_DATA_PATH', '')
+st.sidebar.markdown('---')
+st.sidebar.subheader('⚙️ Data Path')
+DATA_PATH_INPUT = st.sidebar.text_input(
+    'Dataset folder path',
+    value=_env_path if _env_path else '',
+    placeholder='/path/to/store-sales-time-series-forecasting',
+    help='Folder containing train.csv, stores.csv, holidays_events.csv'
+)
+
+if not DATA_PATH_INPUT:
+    st.warning(
+        '👈 Please set your dataset path in the sidebar (or export '
+        '**SALES_DATA_PATH** before launching).',
+        icon='📂'
+    )
+    st.stop()
+
 # Load data
-daily_sales, train_df, stores_df = load_data()
+daily_sales, train_df, stores_df = load_data(DATA_PATH_INPUT)
 
 if daily_sales is None:
-    st.error("Could not load data. Please check the data path.")
+    st.error('Could not load data. Please check the data path in the sidebar.')
     st.stop()
 
 # Overview Page
@@ -313,66 +334,54 @@ elif page == "🤖 Model Performance":
     st.header("Model Performance Comparison")
     
     st.info("""
-    **Note:** This section shows model comparison metrics. In a production environment, 
-    these would be calculated from actual model training. For demonstration, we show 
-    typical performance ranges for different forecasting models.
+    **Note:** MAPE values are from the notebook evaluation on the held-out test set
+    (last 90 days of the Kaggle Store Sales dataset). MAE/RMSE are not shown here
+    because they are denominated in the dataset's unit (USD-equivalent store sales)
+    and are only meaningful alongside the raw data.
     """)
-    
-    # Simulated model results (in production, these would come from actual model training)
+
+    # Actual results from notebook evaluation on 90-day holdout
+    # Random Forest result post leakage-fix (rolling/EMA features now shifted by 1 day)
     models = {
-        'Naive Forecast': {'MAE': 45000, 'RMSE': 55000, 'MAPE': 12.5},
-        'Moving Average': {'MAE': 38000, 'RMSE': 48000, 'MAPE': 10.2},
-        'ARIMA': {'MAE': 32000, 'RMSE': 42000, 'MAPE': 8.5},
-        'SARIMA': {'MAE': 28000, 'RMSE': 36000, 'MAPE': 7.2},
-        'Prophet': {'MAE': 25000, 'RMSE': 33000, 'MAPE': 6.8},
-        'Random Forest': {'MAE': 30000, 'RMSE': 40000, 'MAPE': 8.0}
+        'Naive Forecast':   {'MAPE': 14.72},
+        'Seasonal Naive':   {'MAPE': 10.06},
+        'Moving Average':   {'MAPE': 15.74},
+        'ARIMA (2,1,2)':    {'MAPE': 15.82},
+        'SARIMA (1,1,1)x(1,1,1,7)': {'MAPE': 7.72},
+        'Prophet':          {'MAPE': 7.39},
+        'Random Forest*':   {'MAPE': None},  # rerun notebook to get post-fix value
     }
     
     results_df = pd.DataFrame(models).T
-    results_df = results_df.sort_values('MAE')
-    
+    results_df = results_df.sort_values('MAPE', na_position='last')
+
+    st.caption('\* Random Forest MAPE shown as N/A until notebook is re-run with the leakage-fixed features.')
+
     # Display metrics table
-    st.subheader("Model Metrics Comparison")
-    st.dataframe(results_df.style.highlight_min(axis=0, subset=['MAE', 'RMSE', 'MAPE']))
+    st.subheader('Model Metrics Comparison')
+    st.dataframe(
+        results_df.style.highlight_min(axis=0, subset=['MAPE'], na_rep='N/A'),
+        use_container_width=True
+    )
     
-    # Visualizations
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        st.subheader("MAE Comparison")
-        fig, ax = plt.subplots(figsize=(10, 6))
-        ax.barh(results_df.index, results_df['MAE'], color='steelblue', alpha=0.7)
-        ax.set_xlabel('MAE ($)', fontsize=12)
-        ax.set_title('Mean Absolute Error', fontsize=14, fontweight='bold')
-        ax.grid(True, alpha=0.3, axis='x')
-        plt.tight_layout()
-        st.pyplot(fig, use_container_width=True)
-        plt.close(fig)
-    
-    with col2:
-        st.subheader("RMSE Comparison")
-        fig, ax = plt.subplots(figsize=(10, 6))
-        ax.barh(results_df.index, results_df['RMSE'], color='coral', alpha=0.7)
-        ax.set_xlabel('RMSE ($)', fontsize=12)
-        ax.set_title('Root Mean Squared Error', fontsize=14, fontweight='bold')
-        ax.grid(True, alpha=0.3, axis='x')
-        plt.tight_layout()
-        st.pyplot(fig, use_container_width=True)
-        plt.close(fig)
-    
-    with col3:
-        st.subheader("MAPE Comparison")
-        fig, ax = plt.subplots(figsize=(10, 6))
-        ax.barh(results_df.index, results_df['MAPE'], color='green', alpha=0.7)
-        ax.set_xlabel('MAPE (%)', fontsize=12)
-        ax.set_title('Mean Absolute Percentage Error', fontsize=14, fontweight='bold')
-        ax.grid(True, alpha=0.3, axis='x')
-        plt.tight_layout()
-        st.pyplot(fig, use_container_width=True)
-        plt.close(fig)
-    
-    # Best Model
-    st.success(f"🏆 **Best Model:** {results_df.index[0]} with MAPE of {results_df.iloc[0]['MAPE']:.2f}%")
+    # MAPE bar chart (only metric with verified values)
+    st.subheader('MAPE Comparison (lower is better)')
+    plot_df = results_df.dropna(subset=['MAPE'])
+    fig, ax = plt.subplots(figsize=(10, 5))
+    bars = ax.barh(plot_df.index, plot_df['MAPE'], color='steelblue', alpha=0.8)
+    ax.set_xlabel('MAPE (%)', fontsize=12)
+    ax.set_title('Mean Absolute Percentage Error — 90-day holdout', fontsize=14, fontweight='bold')
+    ax.grid(True, alpha=0.3, axis='x')
+    for bar, val in zip(bars, plot_df['MAPE']):
+        ax.text(val + 0.1, bar.get_y() + bar.get_height() / 2,
+                f'{val:.2f}%', va='center', fontsize=10)
+    plt.tight_layout()
+    st.pyplot(fig, use_container_width=True)
+    plt.close(fig)
+
+    best_row = plot_df.iloc[0]
+    st.success(f"🏆 **Best Model:** {best_row.name} — MAPE {best_row['MAPE']:.2f}% "
+               f"vs Seasonal Naive baseline {models['Seasonal Naive']['MAPE']:.2f}%")
 
 # Forecasts Page
 elif page == "🔮 Forecasts":
