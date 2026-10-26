@@ -54,8 +54,7 @@ The notebook's last cell exports the raw summaries; `prepare_data.py` derives th
 ```bash
 pip install lxml
 python prepare_data.py
-python build_workbook.py            # packages the .twbx
-python build_workbook.py path/to/twb_2026.1.0.xsd   # also validates against the schema
+python build_workbook.py
 ```
 
-The schema is published at https://github.com/tableau/tableau-document-schemas.
+I checked the generated XML against the official schema published at https://github.com/tableau/tableau-document-schemas.
