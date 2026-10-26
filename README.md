@@ -4,15 +4,15 @@
 
 Retail businesses face significant challenges in demand forecasting, leading to suboptimal inventory management decisions. Overstocking results in increased holding costs, capital tie-up, and risk of obsolescence, while understocking leads to stockouts, lost sales, and customer dissatisfaction. Traditional forecasting methods often fail to capture complex temporal patterns, seasonality, and external factors such as promotions and holidays.
 
-The impact of poor forecasting is substantial: 10-15% of revenue is wasted on excess inventory, 3-5% of potential revenue is lost due to stockouts, and operational inefficiencies result in 20-30% higher labor costs. This problem is particularly acute in retail environments with multiple product categories, stores, and seasonal demand variations.
+Poor forecasts show up as excess inventory, lost sales from stockouts and mismatched staffing. This problem is particularly acute in retail environments with multiple product categories, stores, and seasonal demand variations.
 
-Success is defined by achieving forecast accuracy (MAPE) below 10% while maintaining 95%+ service levels and enabling data-driven inventory optimization decisions.
+Success is defined as a 90-day forecast with MAPE below 10% that beats a seasonal naive baseline.
 
 ## Objective
 
-This project aims to develop a production-ready time series forecasting system that predicts daily retail sales for a 30-90 day horizon with high accuracy. The solution must handle multiple temporal patterns (trend, weekly seasonality, monthly seasonality, yearly seasonality), incorporate external factors (promotions, holidays), and provide actionable business insights for inventory management, promotion planning, and staffing optimization.
+This project aims to develop a time series forecasting system (notebook plus dashboard) that predicts daily retail sales for a 30-90 day horizon using statistical and machine-learning models. The solution must handle multiple temporal patterns (trend, weekly seasonality, monthly seasonality, yearly seasonality), incorporate external factors (promotions, holidays), and provide actionable business insights for inventory management, promotion planning, and staffing optimization.
 
-Constraints include maintaining forecast latency under 5 minutes for daily batch updates, ensuring interpretability of model outputs for business stakeholders, and handling missing data gracefully without manual intervention.
+Design goals include ensuring interpretability of model outputs for business stakeholders, and handling missing data gracefully without manual intervention.
 
 ## Dataset
 
@@ -53,7 +53,7 @@ The solution employs a multi-model ensemble approach, comparing baseline methods
 - Time-based train-test split preserving temporal structure
 - Feature engineering capturing lag patterns, rolling statistics, and calendar effects
 - Model selection based on MAPE, MAE, and RMSE metrics
-- Walk-forward validation strategy for production deployment
+- Single time-based holdout for evaluation (walk-forward retraining is a proposed next step, not implemented)
 
 **Algorithm Selection Rationale**:
 - ARIMA/SARIMA: Captures autocorrelation and seasonal patterns, interpretable parameters
@@ -70,7 +70,7 @@ The solution employs a multi-model ensemble approach, comparing baseline methods
 
 **Training Strategy**:
 - Time-based split: Training data up to split date, testing on future data (no data leakage)
-- Walk-forward validation: Simulates real-world forecasting scenario
+- Single 90-day holdout (no walk-forward validation in this notebook)
 - No random shuffling: Preserves temporal dependencies
 - Model evaluation on held-out test set (last 90 days)
 
@@ -142,7 +142,7 @@ For retail inventory management, MAPE directly translates to inventory buffer re
 | ARIMA (2,1,2) | 135,322 | 164,452 | 15.82 | |
 
 > All figures are produced by `forecasting_notebook.ipynb` on the Kaggle Store Sales
-> data aggregated to daily totals (single 90-day holdout, 2017-05-17 to 2017-08-15).
+> data aggregated to daily totals (single 90-day holdout, 2017-05-18 to 2017-08-15).
 
 **Best Model**: Random Forest — 5.70% MAPE on the 90-day holdout when forecast recursively, vs 10.06% for the Seasonal Naive baseline (43% relative improvement). Best statistical model: Prophet at 7.43%.
 
@@ -158,34 +158,26 @@ For retail inventory management, MAPE directly translates to inventory buffer re
 - Fixed parameters: no automatic hyperparameter optimisation for ARIMA/SARIMA
 - Limited external features: oil prices and store characteristics not incorporated
 - Forecast horizon: optimised for the 90-day holdout; accuracy at longer horizons is untested
+- Future forecast: the 90-day forecast cell sets future promotions and holidays to zero, and its "confidence interval" is simply the forecast ±1.96 × the standard deviation of the last 30 days of sales, not a model-based interval
 - Single holdout: walk-forward validation (rolling-window refit) was not implemented; a single 90-day holdout may not fully represent production accuracy
 - Random Forest relies on known future promotion/holiday flags; with unknown future promotions its accuracy would be lower
 
 ## Business / Real-World Impact
 
 **Primary Use Cases**:
-1. **Inventory Management**: Daily forecasts inform reorder points and safety stock levels, reducing inventory costs by 20-30% while maintaining 95%+ service levels
-2. **Promotion Planning**: Forecast promotion impact and optimize timing, improving ROI by 15-25%
-3. **Staffing Optimization**: Align workforce schedules with predicted demand, reducing labor costs by 10-15%
+1. **Inventory Management**: Daily forecasts inform reorder points and safety stock levels, supporting more informed stocking decisions
+2. **Promotion Planning**: Forecast promotion impact and optimize timing
+3. **Staffing Optimization**: Align workforce schedules with predicted demand
 4. **Supply Chain Planning**: 30-90 day forecasts enable procurement and logistics optimization
 
 **Stakeholders**:
-- **Inventory Managers**: Make data-driven stocking decisions with confidence intervals
+- **Inventory Managers**: Make data-driven stocking decisions using the forecast
 - **Marketing Teams**: Optimize promotion timing based on predicted demand patterns
 - **Operations Managers**: Schedule staff efficiently based on forecasted demand
 - **Finance Teams**: Improve cash flow planning with accurate demand forecasts
 
 **Decision Support**:
 The forecasting system enables proactive decision-making rather than reactive responses. For example, inventory managers can maintain optimal stock levels before peak seasons, marketing teams can schedule promotions during historically low-sales periods, and operations can pre-allocate staff resources for high-demand periods.
-
-**ROI Illustration** (hypothetical — not derived from this dataset):
-
-For a retailer with $100M annual revenue, a system achieving sub-10% MAPE could
-yield rough order-of-magnitude savings in these areas (actual impact depends
-heavily on implementation, market, and operational baseline):
-- Inventory cost reduction: 20-30% of carrying costs
-- Stockout recovery: 40-50% reduction in lost-sale events
-- Labour scheduling: 10-15% reduction in unplanned overtime
 
 ## Project Structure
 
@@ -209,7 +201,7 @@ sales-forecasting-system/
 
 **Directory Descriptions**:
 - `forecasting_notebook.ipynb`: Complete analysis pipeline including EDA, feature engineering, model training, evaluation, and business insights
-- `app.py`: Production dashboard for visualization and interactive analysis
+- `app.py`: Streamlit dashboard for visualization and interactive analysis
 - `components/`: Screenshot outputs and visualizations
 - `venv/`: Python virtual environment with all dependencies
 
@@ -236,10 +228,7 @@ pip install -r requirements.txt
 ```
 
 **Step 4: Configure Data Path**
-Edit the `DATA_PATH` variable in `retail_sales_forecasting.ipynb` or `dashboard.py`:
-```python
-DATA_PATH = '/path/to/store-sales-time-series-forecasting'
-```
+Download the Kaggle Store Sales files into a `data/` folder (the notebook reads `DATA_PATH = 'data'`), or for the dashboard set the `SALES_DATA_PATH` environment variable. `forecasting_notebook.ipynb` and `app.py` are the two entry points.
 
 Ensure the following files exist:
 - `train.csv`
@@ -303,9 +292,9 @@ Access dashboard at `http://localhost:8501`
 
 **Data Science Learnings**:
 - Business metrics matter more than technical metrics: MAPE is preferred by stakeholders over RMSE due to direct business interpretation (inventory buffer requirements).
-- Baseline models are essential: Naive and seasonal naive forecasts provide critical benchmarks; 50% error reduction from baseline indicates meaningful improvement.
+- Baseline models are essential: Naive and seasonal naive forecasts provide critical benchmarks; Random Forest cut MAPE by 43% relative to the seasonal naive baseline (5.70% vs 10.06%), and Prophet by 26%.
 - Domain knowledge enhances feature engineering: Understanding retail operations (promotions, holidays, weekly patterns) guides effective feature creation.
-- Production considerations differ from research: Walk-forward validation, retraining strategies, and monitoring are crucial for production deployment but often overlooked in academic work.
+- Evaluation design matters: a single holdout is a modest check; walk-forward validation and retraining would be the next step before any real deployment.
 - Visualization drives stakeholder buy-in: Interactive dashboards enable non-technical users to understand and trust forecast outputs.
 
 ## Output Screenshots

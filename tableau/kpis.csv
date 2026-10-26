@@ -1,0 +1,7 @@
+kpi,value
+total_sales,1073644952.2030684
+avg_daily_sales,637556.3849186868
+promotion_lift_pct,69.77538119921492
+best_model_mape_pct,5.7041672814306645
+prophet_mape_pct,7.427207658203231
+seasonal_naive_mape_pct,10.06303951891807

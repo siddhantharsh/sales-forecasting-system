@@ -1,0 +1,1783 @@
+store_nbr,city,state,type,family,sales
+1,Quito,Pichincha,D,AUTOMOTIVE,5475.0
+1,Quito,Pichincha,D,BABY CARE,0.0
+1,Quito,Pichincha,D,BEAUTY,4056.0
+1,Quito,Pichincha,D,BEVERAGES,2673769.0
+1,Quito,Pichincha,D,BOOKS,211.0
+1,Quito,Pichincha,D,BREAD/BAKERY,569992.207863
+1,Quito,Pichincha,D,CELEBRATION,16786.0
+1,Quito,Pichincha,D,CLEANING,1078525.0
+1,Quito,Pichincha,D,DAIRY,1054354.0
+1,Quito,Pichincha,D,DELI,207037.078086
+1,Quito,Pichincha,D,EGGS,236506.0
+1,Quito,Pichincha,D,FROZEN FOODS,217926.38398
+1,Quito,Pichincha,D,GROCERY I,3743823.0
+1,Quito,Pichincha,D,GROCERY II,36783.0
+1,Quito,Pichincha,D,HARDWARE,2694.0
+1,Quito,Pichincha,D,HOME AND KITCHEN I,25006.0
+1,Quito,Pichincha,D,HOME AND KITCHEN II,21796.0
+1,Quito,Pichincha,D,HOME APPLIANCES,569.0
+1,Quito,Pichincha,D,HOME CARE,170062.0
+1,Quito,Pichincha,D,LADIESWEAR,15835.0
+1,Quito,Pichincha,D,LAWN AND GARDEN,15169.0
+1,Quito,Pichincha,D,LINGERIE,11314.0
+1,Quito,Pichincha,D,"LIQUOR,WINE,BEER",170111.0
+1,Quito,Pichincha,D,MAGAZINES,5399.0
+1,Quito,Pichincha,D,MEATS,527608.289165
+1,Quito,Pichincha,D,PERSONAL CARE,217534.0
+1,Quito,Pichincha,D,PET SUPPLIES,5850.0
+1,Quito,Pichincha,D,PLAYERS AND ELECTRONICS,8913.0
+1,Quito,Pichincha,D,POULTRY,478621.372565
+1,Quito,Pichincha,D,PREPARED FOODS,135979.560898
+1,Quito,Pichincha,D,PRODUCE,2443329.9675
+1,Quito,Pichincha,D,SCHOOL AND OFFICE SUPPLIES,289.0
+1,Quito,Pichincha,D,SEAFOOD,43689.0095971
+2,Quito,Pichincha,D,AUTOMOTIVE,9100.0
+2,Quito,Pichincha,D,BABY CARE,84.0
+2,Quito,Pichincha,D,BEAUTY,7936.0
+2,Quito,Pichincha,D,BEVERAGES,4153912.0
+2,Quito,Pichincha,D,BOOKS,239.0
+2,Quito,Pichincha,D,BREAD/BAKERY,924272.78709
+2,Quito,Pichincha,D,CELEBRATION,13384.0
+2,Quito,Pichincha,D,CLEANING,1625869.0
+2,Quito,Pichincha,D,DAIRY,1436860.0
+2,Quito,Pichincha,D,DELI,411485.0905
+2,Quito,Pichincha,D,EGGS,314736.0
+2,Quito,Pichincha,D,FROZEN FOODS,270649.137023
+2,Quito,Pichincha,D,GROCERY I,6591703.797
+2,Quito,Pichincha,D,GROCERY II,52685.0
+2,Quito,Pichincha,D,HARDWARE,1972.0
+2,Quito,Pichincha,D,HOME AND KITCHEN I,29649.0
+2,Quito,Pichincha,D,HOME AND KITCHEN II,24264.0
+2,Quito,Pichincha,D,HOME APPLIANCES,806.0
+2,Quito,Pichincha,D,HOME CARE,298621.0
+2,Quito,Pichincha,D,LADIESWEAR,29539.0
+2,Quito,Pichincha,D,LAWN AND GARDEN,13863.0
+2,Quito,Pichincha,D,LINGERIE,15699.0
+2,Quito,Pichincha,D,"LIQUOR,WINE,BEER",145672.0
+2,Quito,Pichincha,D,MAGAZINES,6459.0
+2,Quito,Pichincha,D,MEATS,849915.77633
+2,Quito,Pichincha,D,PERSONAL CARE,442836.0
+2,Quito,Pichincha,D,PET SUPPLIES,9140.0
+2,Quito,Pichincha,D,PLAYERS AND ELECTRONICS,9603.0
+2,Quito,Pichincha,D,POULTRY,819440.448261
+2,Quito,Pichincha,D,PREPARED FOODS,210382.48108
+2,Quito,Pichincha,D,PRODUCE,2781594.1713
+2,Quito,Pichincha,D,SCHOOL AND OFFICE SUPPLIES,770.0
+2,Quito,Pichincha,D,SEAFOOD,54246.9559802
+3,Quito,Pichincha,D,AUTOMOTIVE,15647.0
+3,Quito,Pichincha,D,BABY CARE,672.0
+3,Quito,Pichincha,D,BEAUTY,16189.0
+3,Quito,Pichincha,D,BEVERAGES,11351589.0
+3,Quito,Pichincha,D,BOOKS,540.0
+3,Quito,Pichincha,D,BREAD/BAKERY,1937379.33146
+3,Quito,Pichincha,D,CELEBRATION,48450.0
+3,Quito,Pichincha,D,CLEANING,3474432.0
+3,Quito,Pichincha,D,DAIRY,3436852.0
+3,Quito,Pichincha,D,DELI,664670.02575
+3,Quito,Pichincha,D,EGGS,879981.0
+3,Quito,Pichincha,D,FROZEN FOODS,756579.34437
+3,Quito,Pichincha,D,GROCERY I,12970467.971
+3,Quito,Pichincha,D,GROCERY II,130132.0
+3,Quito,Pichincha,D,HARDWARE,5051.0
+3,Quito,Pichincha,D,HOME AND KITCHEN I,73617.0
+3,Quito,Pichincha,D,HOME AND KITCHEN II,58808.0
+3,Quito,Pichincha,D,HOME APPLIANCES,3162.0
+3,Quito,Pichincha,D,HOME CARE,546284.0
+3,Quito,Pichincha,D,LADIESWEAR,51998.0
+3,Quito,Pichincha,D,LAWN AND GARDEN,41315.0
+3,Quito,Pichincha,D,LINGERIE,46361.0
+3,Quito,Pichincha,D,"LIQUOR,WINE,BEER",369712.0
+3,Quito,Pichincha,D,MAGAZINES,20476.0
+3,Quito,Pichincha,D,MEATS,1366488.63918
+3,Quito,Pichincha,D,PERSONAL CARE,847967.0
+3,Quito,Pichincha,D,PET SUPPLIES,19678.0
+3,Quito,Pichincha,D,PLAYERS AND ELECTRONICS,29765.0
+3,Quito,Pichincha,D,POULTRY,1905238.5156100001
+3,Quito,Pichincha,D,PREPARED FOODS,618877.96301
+3,Quito,Pichincha,D,PRODUCE,8613316.1134
+3,Quito,Pichincha,D,SCHOOL AND OFFICE SUPPLIES,1264.0
+3,Quito,Pichincha,D,SEAFOOD,178950.281302
+4,Quito,Pichincha,D,AUTOMOTIVE,6767.0
+4,Quito,Pichincha,D,BABY CARE,24.0
+4,Quito,Pichincha,D,BEAUTY,6890.0
+4,Quito,Pichincha,D,BEVERAGES,3668136.0
+4,Quito,Pichincha,D,BOOKS,266.0
+4,Quito,Pichincha,D,BREAD/BAKERY,682881.97207
+4,Quito,Pichincha,D,CELEBRATION,10749.0
+4,Quito,Pichincha,D,CLEANING,1489848.0
+4,Quito,Pichincha,D,DAIRY,1329186.0
+4,Quito,Pichincha,D,DELI,363776.758584
+4,Quito,Pichincha,D,EGGS,289756.0
+4,Quito,Pichincha,D,FROZEN FOODS,253684.574904
+4,Quito,Pichincha,D,GROCERY I,5636343.59
+4,Quito,Pichincha,D,GROCERY II,35040.0
+4,Quito,Pichincha,D,HARDWARE,1914.0
+4,Quito,Pichincha,D,HOME AND KITCHEN I,23280.0
+4,Quito,Pichincha,D,HOME AND KITCHEN II,14916.0
+4,Quito,Pichincha,D,HOME APPLIANCES,658.0
+4,Quito,Pichincha,D,HOME CARE,258924.0
+4,Quito,Pichincha,D,LADIESWEAR,25589.0
+4,Quito,Pichincha,D,LAWN AND GARDEN,15768.0
+4,Quito,Pichincha,D,LINGERIE,7753.0
+4,Quito,Pichincha,D,"LIQUOR,WINE,BEER",140016.0
+4,Quito,Pichincha,D,MAGAZINES,5879.0
+4,Quito,Pichincha,D,MEATS,622470.37085
+4,Quito,Pichincha,D,PERSONAL CARE,383983.0
+4,Quito,Pichincha,D,PET SUPPLIES,7147.0
+4,Quito,Pichincha,D,PLAYERS AND ELECTRONICS,9098.0
+4,Quito,Pichincha,D,POULTRY,756021.57276
+4,Quito,Pichincha,D,PREPARED FOODS,167925.25903
+4,Quito,Pichincha,D,PRODUCE,2639588.2061
+4,Quito,Pichincha,D,SCHOOL AND OFFICE SUPPLIES,350.0
+4,Quito,Pichincha,D,SEAFOOD,55071.075703
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,AUTOMOTIVE,9194.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,BABY CARE,215.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,BEAUTY,8684.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,BEVERAGES,2533831.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,BOOKS,230.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,BREAD/BAKERY,642854.55589
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,CELEBRATION,26176.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,CLEANING,1667748.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,DAIRY,871283.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,DELI,415271.00161
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,EGGS,190851.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,FROZEN FOODS,269669.196191
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,GROCERY I,5262681.658
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,GROCERY II,33241.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,HARDWARE,1725.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,HOME AND KITCHEN I,30107.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,HOME AND KITCHEN II,37238.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,HOME APPLIANCES,926.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,HOME CARE,239283.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,LADIESWEAR,14813.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,LAWN AND GARDEN,4970.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,LINGERIE,31561.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,"LIQUOR,WINE,BEER",110414.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,MAGAZINES,6569.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,MEATS,477104.408106
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,PERSONAL CARE,450166.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,PET SUPPLIES,3199.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,PLAYERS AND ELECTRONICS,8024.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,POULTRY,419630.370906
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,PREPARED FOODS,147991.128995
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,PRODUCE,1653582.25866
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,SCHOOL AND OFFICE SUPPLIES,813.0
+5,Santo Domingo,Santo Domingo de los Tsachilas,D,SEAFOOD,22358.9939952
+6,Quito,Pichincha,D,AUTOMOTIVE,9028.0
+6,Quito,Pichincha,D,BABY CARE,12.0
+6,Quito,Pichincha,D,BEAUTY,9539.0
+6,Quito,Pichincha,D,BEVERAGES,5063106.0
+6,Quito,Pichincha,D,BOOKS,76.0
+6,Quito,Pichincha,D,BREAD/BAKERY,919102.75914
+6,Quito,Pichincha,D,CELEBRATION,15753.0
+6,Quito,Pichincha,D,CLEANING,2081127.0
+6,Quito,Pichincha,D,DAIRY,1612034.0
+6,Quito,Pichincha,D,DELI,575360.34476
+6,Quito,Pichincha,D,EGGS,345028.0
+6,Quito,Pichincha,D,FROZEN FOODS,378637.459759
+6,Quito,Pichincha,D,GROCERY I,7806646.169
+6,Quito,Pichincha,D,GROCERY II,59272.0
+6,Quito,Pichincha,D,HARDWARE,1569.0
+6,Quito,Pichincha,D,HOME AND KITCHEN I,29331.0
+6,Quito,Pichincha,D,HOME AND KITCHEN II,49457.0
+6,Quito,Pichincha,D,HOME APPLIANCES,661.0
+6,Quito,Pichincha,D,HOME CARE,340331.0
+6,Quito,Pichincha,D,LADIESWEAR,32455.0
+6,Quito,Pichincha,D,LAWN AND GARDEN,13111.0
+6,Quito,Pichincha,D,LINGERIE,13717.0
+6,Quito,Pichincha,D,"LIQUOR,WINE,BEER",157243.0
+6,Quito,Pichincha,D,MAGAZINES,6161.0
+6,Quito,Pichincha,D,MEATS,834126.30435
+6,Quito,Pichincha,D,PERSONAL CARE,541193.0
+6,Quito,Pichincha,D,PET SUPPLIES,9950.0
+6,Quito,Pichincha,D,PLAYERS AND ELECTRONICS,13085.0
+6,Quito,Pichincha,D,POULTRY,1062759.72077
+6,Quito,Pichincha,D,PREPARED FOODS,236798.183863
+6,Quito,Pichincha,D,PRODUCE,2893383.7006
+6,Quito,Pichincha,D,SCHOOL AND OFFICE SUPPLIES,446.0
+6,Quito,Pichincha,D,SEAFOOD,73180.354812
+7,Quito,Pichincha,D,AUTOMOTIVE,7150.0
+7,Quito,Pichincha,D,BABY CARE,48.0
+7,Quito,Pichincha,D,BEAUTY,6142.0
+7,Quito,Pichincha,D,BEVERAGES,5592609.0
+7,Quito,Pichincha,D,BOOKS,211.0
+7,Quito,Pichincha,D,BREAD/BAKERY,1082197.89274
+7,Quito,Pichincha,D,CELEBRATION,18965.0
+7,Quito,Pichincha,D,CLEANING,1770749.0
+7,Quito,Pichincha,D,DAIRY,2063308.0
+7,Quito,Pichincha,D,DELI,284606.847078
+7,Quito,Pichincha,D,EGGS,479780.0
+7,Quito,Pichincha,D,FROZEN FOODS,433886.26387
+7,Quito,Pichincha,D,GROCERY I,6247973.996
+7,Quito,Pichincha,D,GROCERY II,67416.0
+7,Quito,Pichincha,D,HARDWARE,3448.0
+7,Quito,Pichincha,D,HOME AND KITCHEN I,24398.0
+7,Quito,Pichincha,D,HOME AND KITCHEN II,23364.0
+7,Quito,Pichincha,D,HOME APPLIANCES,1304.0
+7,Quito,Pichincha,D,HOME CARE,253302.0
+7,Quito,Pichincha,D,LADIESWEAR,12253.0
+7,Quito,Pichincha,D,LAWN AND GARDEN,32049.0
+7,Quito,Pichincha,D,LINGERIE,14995.0
+7,Quito,Pichincha,D,"LIQUOR,WINE,BEER",268323.0
+7,Quito,Pichincha,D,MAGAZINES,11172.0
+7,Quito,Pichincha,D,MEATS,880013.65905
+7,Quito,Pichincha,D,PERSONAL CARE,359193.0
+7,Quito,Pichincha,D,PET SUPPLIES,6481.0
+7,Quito,Pichincha,D,PLAYERS AND ELECTRONICS,11638.0
+7,Quito,Pichincha,D,POULTRY,1018633.70252
+7,Quito,Pichincha,D,PREPARED FOODS,302128.23095
+7,Quito,Pichincha,D,PRODUCE,5576834.202
+7,Quito,Pichincha,D,SCHOOL AND OFFICE SUPPLIES,536.0
+7,Quito,Pichincha,D,SEAFOOD,96940.788763
+8,Quito,Pichincha,D,AUTOMOTIVE,8890.0
+8,Quito,Pichincha,D,BABY CARE,142.0
+8,Quito,Pichincha,D,BEAUTY,12104.0
+8,Quito,Pichincha,D,BEVERAGES,6347150.0
+8,Quito,Pichincha,D,BOOKS,317.0
+8,Quito,Pichincha,D,BREAD/BAKERY,1267688.0213
+8,Quito,Pichincha,D,CELEBRATION,24976.0
+8,Quito,Pichincha,D,CLEANING,2124056.0
+8,Quito,Pichincha,D,DAIRY,2373813.0
+8,Quito,Pichincha,D,DELI,469050.83977
+8,Quito,Pichincha,D,EGGS,550746.0
+8,Quito,Pichincha,D,FROZEN FOODS,400075.557936
+8,Quito,Pichincha,D,GROCERY I,7909966.0
+8,Quito,Pichincha,D,GROCERY II,69843.0
+8,Quito,Pichincha,D,HARDWARE,4021.0
+8,Quito,Pichincha,D,HOME AND KITCHEN I,50048.0
+8,Quito,Pichincha,D,HOME AND KITCHEN II,43272.0
+8,Quito,Pichincha,D,HOME APPLIANCES,1968.0
+8,Quito,Pichincha,D,HOME CARE,391945.0
+8,Quito,Pichincha,D,LADIESWEAR,41790.0
+8,Quito,Pichincha,D,LAWN AND GARDEN,28318.0
+8,Quito,Pichincha,D,LINGERIE,37693.0
+8,Quito,Pichincha,D,"LIQUOR,WINE,BEER",248567.0
+8,Quito,Pichincha,D,MAGAZINES,13869.0
+8,Quito,Pichincha,D,MEATS,874542.72672
+8,Quito,Pichincha,D,PERSONAL CARE,551520.0
+8,Quito,Pichincha,D,PET SUPPLIES,17100.0
+8,Quito,Pichincha,D,PLAYERS AND ELECTRONICS,18958.0
+8,Quito,Pichincha,D,POULTRY,1008141.2357
+8,Quito,Pichincha,D,PREPARED FOODS,356927.943965
+8,Quito,Pichincha,D,PRODUCE,5152226.4131000005
+8,Quito,Pichincha,D,SCHOOL AND OFFICE SUPPLIES,710.0
+8,Quito,Pichincha,D,SEAFOOD,93852.189524
+9,Quito,Pichincha,B,AUTOMOTIVE,23358.0
+9,Quito,Pichincha,B,BABY CARE,336.0
+9,Quito,Pichincha,B,BEAUTY,9283.0
+9,Quito,Pichincha,B,BEVERAGES,4617396.0
+9,Quito,Pichincha,B,BOOKS,0.0
+9,Quito,Pichincha,B,BREAD/BAKERY,955840.0
+9,Quito,Pichincha,B,CELEBRATION,16257.0
+9,Quito,Pichincha,B,CLEANING,2899366.0
+9,Quito,Pichincha,B,DAIRY,1255925.0
+9,Quito,Pichincha,B,DELI,984503.55808
+9,Quito,Pichincha,B,EGGS,324444.0
+9,Quito,Pichincha,B,FROZEN FOODS,210015.1437752
+9,Quito,Pichincha,B,GROCERY I,10353098.96
+9,Quito,Pichincha,B,GROCERY II,19314.0
+9,Quito,Pichincha,B,HARDWARE,3176.0
+9,Quito,Pichincha,B,HOME AND KITCHEN I,55886.0
+9,Quito,Pichincha,B,HOME AND KITCHEN II,32997.0
+9,Quito,Pichincha,B,HOME APPLIANCES,663.0
+9,Quito,Pichincha,B,HOME CARE,486379.0
+9,Quito,Pichincha,B,LADIESWEAR,15958.0
+9,Quito,Pichincha,B,LAWN AND GARDEN,7088.0
+9,Quito,Pichincha,B,LINGERIE,15245.0
+9,Quito,Pichincha,B,"LIQUOR,WINE,BEER",86553.0
+9,Quito,Pichincha,B,MAGAZINES,2790.0
+9,Quito,Pichincha,B,MEATS,634771.08559
+9,Quito,Pichincha,B,PERSONAL CARE,746631.0
+9,Quito,Pichincha,B,PET SUPPLIES,5696.0
+9,Quito,Pichincha,B,PLAYERS AND ELECTRONICS,11495.0
+9,Quito,Pichincha,B,POULTRY,814854.57492
+9,Quito,Pichincha,B,PREPARED FOODS,149475.92895
+9,Quito,Pichincha,B,PRODUCE,1632022.49327
+9,Quito,Pichincha,B,SCHOOL AND OFFICE SUPPLIES,10190.0
+9,Quito,Pichincha,B,SEAFOOD,28433.3202083
+10,Quito,Pichincha,C,AUTOMOTIVE,5192.0
+10,Quito,Pichincha,C,BABY CARE,461.0
+10,Quito,Pichincha,C,BEAUTY,2312.0
+10,Quito,Pichincha,C,BEVERAGES,1507341.0
+10,Quito,Pichincha,C,BOOKS,0.0
+10,Quito,Pichincha,C,BREAD/BAKERY,191421.0
+10,Quito,Pichincha,C,CELEBRATION,4414.0
+10,Quito,Pichincha,C,CLEANING,1309830.0
+10,Quito,Pichincha,C,DAIRY,422559.0
+10,Quito,Pichincha,C,DELI,419611.0
+10,Quito,Pichincha,C,EGGS,82266.0
+10,Quito,Pichincha,C,FROZEN FOODS,73258.166992
+10,Quito,Pichincha,C,GROCERY I,4126220.174
+10,Quito,Pichincha,C,GROCERY II,6230.0
+10,Quito,Pichincha,C,HARDWARE,1151.0
+10,Quito,Pichincha,C,HOME AND KITCHEN I,12437.0
+10,Quito,Pichincha,C,HOME AND KITCHEN II,9087.0
+10,Quito,Pichincha,C,HOME APPLIANCES,304.0
+10,Quito,Pichincha,C,HOME CARE,201545.0
+10,Quito,Pichincha,C,LADIESWEAR,5490.0
+10,Quito,Pichincha,C,LAWN AND GARDEN,26.0
+10,Quito,Pichincha,C,LINGERIE,5453.0
+10,Quito,Pichincha,C,"LIQUOR,WINE,BEER",20491.0
+10,Quito,Pichincha,C,MAGAZINES,417.0
+10,Quito,Pichincha,C,MEATS,314670.524799
+10,Quito,Pichincha,C,PERSONAL CARE,300783.0
+10,Quito,Pichincha,C,PET SUPPLIES,557.0
+10,Quito,Pichincha,C,PLAYERS AND ELECTRONICS,3905.0
+10,Quito,Pichincha,C,POULTRY,294951.988092
+10,Quito,Pichincha,C,PREPARED FOODS,35080.0
+10,Quito,Pichincha,C,PRODUCE,250738.88198
+10,Quito,Pichincha,C,SCHOOL AND OFFICE SUPPLIES,858.0
+10,Quito,Pichincha,C,SEAFOOD,4845.0
+11,Cayambe,Pichincha,B,AUTOMOTIVE,11266.0
+11,Cayambe,Pichincha,B,BABY CARE,318.0
+11,Cayambe,Pichincha,B,BEAUTY,8009.0
+11,Cayambe,Pichincha,B,BEVERAGES,6139303.0
+11,Cayambe,Pichincha,B,BOOKS,0.0
+11,Cayambe,Pichincha,B,BREAD/BAKERY,1020894.0
+11,Cayambe,Pichincha,B,CELEBRATION,17073.0
+11,Cayambe,Pichincha,B,CLEANING,3273785.0
+11,Cayambe,Pichincha,B,DAIRY,863688.0
+11,Cayambe,Pichincha,B,DELI,724570.76139
+11,Cayambe,Pichincha,B,EGGS,265252.0
+11,Cayambe,Pichincha,B,FROZEN FOODS,172191.817932
+11,Cayambe,Pichincha,B,GROCERY I,11044948.458
+11,Cayambe,Pichincha,B,GROCERY II,29398.0
+11,Cayambe,Pichincha,B,HARDWARE,1231.0
+11,Cayambe,Pichincha,B,HOME AND KITCHEN I,39602.0
+11,Cayambe,Pichincha,B,HOME AND KITCHEN II,23407.0
+11,Cayambe,Pichincha,B,HOME APPLIANCES,684.0
+11,Cayambe,Pichincha,B,HOME CARE,554829.0
+11,Cayambe,Pichincha,B,LADIESWEAR,13211.0
+11,Cayambe,Pichincha,B,LAWN AND GARDEN,2757.0
+11,Cayambe,Pichincha,B,LINGERIE,18517.0
+11,Cayambe,Pichincha,B,"LIQUOR,WINE,BEER",74470.0
+11,Cayambe,Pichincha,B,MAGAZINES,2474.0
+11,Cayambe,Pichincha,B,MEATS,1045087.21979
+11,Cayambe,Pichincha,B,PERSONAL CARE,660286.0
+11,Cayambe,Pichincha,B,PET SUPPLIES,1701.0
+11,Cayambe,Pichincha,B,PLAYERS AND ELECTRONICS,13072.0
+11,Cayambe,Pichincha,B,POULTRY,860570.34879
+11,Cayambe,Pichincha,B,PREPARED FOODS,92434.497994
+11,Cayambe,Pichincha,B,PRODUCE,1329849.3775
+11,Cayambe,Pichincha,B,SCHOOL AND OFFICE SUPPLIES,6673.0
+11,Cayambe,Pichincha,B,SEAFOOD,14006.0
+12,Latacunga,Cotopaxi,C,AUTOMOTIVE,8004.0
+12,Latacunga,Cotopaxi,C,BABY CARE,179.0
+12,Latacunga,Cotopaxi,C,BEAUTY,1628.0
+12,Latacunga,Cotopaxi,C,BEVERAGES,2183222.0
+12,Latacunga,Cotopaxi,C,BOOKS,0.0
+12,Latacunga,Cotopaxi,C,BREAD/BAKERY,314102.0
+12,Latacunga,Cotopaxi,C,CELEBRATION,10344.0
+12,Latacunga,Cotopaxi,C,CLEANING,1299707.0
+12,Latacunga,Cotopaxi,C,DAIRY,564808.0
+12,Latacunga,Cotopaxi,C,DELI,331018.0
+12,Latacunga,Cotopaxi,C,EGGS,126217.0
+12,Latacunga,Cotopaxi,C,FROZEN FOODS,80196.146076
+12,Latacunga,Cotopaxi,C,GROCERY I,4208523.908
+12,Latacunga,Cotopaxi,C,GROCERY II,10685.0
+12,Latacunga,Cotopaxi,C,HARDWARE,1648.0
+12,Latacunga,Cotopaxi,C,HOME AND KITCHEN I,17384.0
+12,Latacunga,Cotopaxi,C,HOME AND KITCHEN II,14083.0
+12,Latacunga,Cotopaxi,C,HOME APPLIANCES,373.0
+12,Latacunga,Cotopaxi,C,HOME CARE,189700.0
+12,Latacunga,Cotopaxi,C,LADIESWEAR,2184.0
+12,Latacunga,Cotopaxi,C,LAWN AND GARDEN,16.0
+12,Latacunga,Cotopaxi,C,LINGERIE,10895.0
+12,Latacunga,Cotopaxi,C,"LIQUOR,WINE,BEER",64543.0
+12,Latacunga,Cotopaxi,C,MAGAZINES,1259.0
+12,Latacunga,Cotopaxi,C,MEATS,246755.730273
+12,Latacunga,Cotopaxi,C,PERSONAL CARE,262193.0
+12,Latacunga,Cotopaxi,C,PET SUPPLIES,872.0
+12,Latacunga,Cotopaxi,C,PLAYERS AND ELECTRONICS,4956.0
+12,Latacunga,Cotopaxi,C,POULTRY,300155.036597
+12,Latacunga,Cotopaxi,C,PREPARED FOODS,56027.0
+12,Latacunga,Cotopaxi,C,PRODUCE,342045.13629
+12,Latacunga,Cotopaxi,C,SCHOOL AND OFFICE SUPPLIES,918.0
+12,Latacunga,Cotopaxi,C,SEAFOOD,4577.0
+13,Latacunga,Cotopaxi,C,AUTOMOTIVE,9303.0
+13,Latacunga,Cotopaxi,C,BABY CARE,0.0
+13,Latacunga,Cotopaxi,C,BEAUTY,2158.0
+13,Latacunga,Cotopaxi,C,BEVERAGES,2173295.0
+13,Latacunga,Cotopaxi,C,BOOKS,0.0
+13,Latacunga,Cotopaxi,C,BREAD/BAKERY,277227.0
+13,Latacunga,Cotopaxi,C,CELEBRATION,6915.0
+13,Latacunga,Cotopaxi,C,CLEANING,1313006.0
+13,Latacunga,Cotopaxi,C,DAIRY,454440.0
+13,Latacunga,Cotopaxi,C,DELI,267026.0
+13,Latacunga,Cotopaxi,C,EGGS,87964.0
+13,Latacunga,Cotopaxi,C,FROZEN FOODS,56026.877018
+13,Latacunga,Cotopaxi,C,GROCERY I,4570080.779
+13,Latacunga,Cotopaxi,C,GROCERY II,12289.0
+13,Latacunga,Cotopaxi,C,HARDWARE,902.0
+13,Latacunga,Cotopaxi,C,HOME AND KITCHEN I,17979.0
+13,Latacunga,Cotopaxi,C,HOME AND KITCHEN II,13601.0
+13,Latacunga,Cotopaxi,C,HOME APPLIANCES,261.0
+13,Latacunga,Cotopaxi,C,HOME CARE,180116.0
+13,Latacunga,Cotopaxi,C,LADIESWEAR,4575.0
+13,Latacunga,Cotopaxi,C,LAWN AND GARDEN,21.0
+13,Latacunga,Cotopaxi,C,LINGERIE,5159.0
+13,Latacunga,Cotopaxi,C,"LIQUOR,WINE,BEER",54362.0
+13,Latacunga,Cotopaxi,C,MAGAZINES,775.0
+13,Latacunga,Cotopaxi,C,MEATS,258031.65069
+13,Latacunga,Cotopaxi,C,PERSONAL CARE,303371.0
+13,Latacunga,Cotopaxi,C,PET SUPPLIES,406.0
+13,Latacunga,Cotopaxi,C,PLAYERS AND ELECTRONICS,4000.0
+13,Latacunga,Cotopaxi,C,POULTRY,199668.315512
+13,Latacunga,Cotopaxi,C,PREPARED FOODS,46452.0
+13,Latacunga,Cotopaxi,C,PRODUCE,199522.19572
+13,Latacunga,Cotopaxi,C,SCHOOL AND OFFICE SUPPLIES,709.0
+13,Latacunga,Cotopaxi,C,SEAFOOD,3404.0
+14,Riobamba,Chimborazo,C,AUTOMOTIVE,6093.0
+14,Riobamba,Chimborazo,C,BABY CARE,11.0
+14,Riobamba,Chimborazo,C,BEAUTY,2137.0
+14,Riobamba,Chimborazo,C,BEVERAGES,1622259.0
+14,Riobamba,Chimborazo,C,BOOKS,0.0
+14,Riobamba,Chimborazo,C,BREAD/BAKERY,322891.0
+14,Riobamba,Chimborazo,C,CELEBRATION,7872.0
+14,Riobamba,Chimborazo,C,CLEANING,1838506.0
+14,Riobamba,Chimborazo,C,DAIRY,592373.0
+14,Riobamba,Chimborazo,C,DELI,371156.0
+14,Riobamba,Chimborazo,C,EGGS,63339.0
+14,Riobamba,Chimborazo,C,FROZEN FOODS,103714.743694
+14,Riobamba,Chimborazo,C,GROCERY I,4463305.511
+14,Riobamba,Chimborazo,C,GROCERY II,10238.0
+14,Riobamba,Chimborazo,C,HARDWARE,571.0
+14,Riobamba,Chimborazo,C,HOME AND KITCHEN I,20557.0
+14,Riobamba,Chimborazo,C,HOME AND KITCHEN II,20866.0
+14,Riobamba,Chimborazo,C,HOME APPLIANCES,326.0
+14,Riobamba,Chimborazo,C,HOME CARE,258922.0
+14,Riobamba,Chimborazo,C,LADIESWEAR,1619.0
+14,Riobamba,Chimborazo,C,LAWN AND GARDEN,0.0
+14,Riobamba,Chimborazo,C,LINGERIE,7999.0
+14,Riobamba,Chimborazo,C,"LIQUOR,WINE,BEER",42479.0
+14,Riobamba,Chimborazo,C,MAGAZINES,1344.0
+14,Riobamba,Chimborazo,C,MEATS,506670.236191
+14,Riobamba,Chimborazo,C,PERSONAL CARE,462566.0
+14,Riobamba,Chimborazo,C,PET SUPPLIES,743.0
+14,Riobamba,Chimborazo,C,PLAYERS AND ELECTRONICS,5030.0
+14,Riobamba,Chimborazo,C,POULTRY,159662.826273
+14,Riobamba,Chimborazo,C,PREPARED FOODS,102168.0
+14,Riobamba,Chimborazo,C,PRODUCE,384692.43106
+14,Riobamba,Chimborazo,C,SCHOOL AND OFFICE SUPPLIES,559.0
+14,Riobamba,Chimborazo,C,SEAFOOD,7249.0
+15,Ibarra,Imbabura,C,AUTOMOTIVE,4520.0
+15,Ibarra,Imbabura,C,BABY CARE,1580.0
+15,Ibarra,Imbabura,C,BEAUTY,3249.0
+15,Ibarra,Imbabura,C,BEVERAGES,2082525.0
+15,Ibarra,Imbabura,C,BOOKS,0.0
+15,Ibarra,Imbabura,C,BREAD/BAKERY,257381.0
+15,Ibarra,Imbabura,C,CELEBRATION,5084.0
+15,Ibarra,Imbabura,C,CLEANING,1469633.0
+15,Ibarra,Imbabura,C,DAIRY,509272.0
+15,Ibarra,Imbabura,C,DELI,456440.0
+15,Ibarra,Imbabura,C,EGGS,132384.0
+15,Ibarra,Imbabura,C,FROZEN FOODS,107881.883988
+15,Ibarra,Imbabura,C,GROCERY I,4578222.108
+15,Ibarra,Imbabura,C,GROCERY II,16284.0
+15,Ibarra,Imbabura,C,HARDWARE,1539.0
+15,Ibarra,Imbabura,C,HOME AND KITCHEN I,49711.0
+15,Ibarra,Imbabura,C,HOME AND KITCHEN II,17578.0
+15,Ibarra,Imbabura,C,HOME APPLIANCES,195.0
+15,Ibarra,Imbabura,C,HOME CARE,247415.0
+15,Ibarra,Imbabura,C,LADIESWEAR,9485.0
+15,Ibarra,Imbabura,C,LAWN AND GARDEN,15.0
+15,Ibarra,Imbabura,C,LINGERIE,7942.0
+15,Ibarra,Imbabura,C,"LIQUOR,WINE,BEER",41518.0
+15,Ibarra,Imbabura,C,MAGAZINES,1262.0
+15,Ibarra,Imbabura,C,MEATS,211746.457555
+15,Ibarra,Imbabura,C,PERSONAL CARE,305537.0
+15,Ibarra,Imbabura,C,PET SUPPLIES,672.0
+15,Ibarra,Imbabura,C,PLAYERS AND ELECTRONICS,4493.0
+15,Ibarra,Imbabura,C,POULTRY,209909.86397500001
+15,Ibarra,Imbabura,C,PREPARED FOODS,51976.0
+15,Ibarra,Imbabura,C,PRODUCE,656266.70913
+15,Ibarra,Imbabura,C,SCHOOL AND OFFICE SUPPLIES,726.0
+15,Ibarra,Imbabura,C,SEAFOOD,8827.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,AUTOMOTIVE,9688.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,BABY CARE,158.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,BEAUTY,1471.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,BEVERAGES,1825868.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,BOOKS,0.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,BREAD/BAKERY,340074.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,CELEBRATION,6088.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,CLEANING,1687002.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,DAIRY,412095.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,DELI,360315.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,EGGS,299500.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,FROZEN FOODS,70029.4080185
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,GROCERY I,4307272.248
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,GROCERY II,9951.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,HARDWARE,997.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,HOME AND KITCHEN I,21159.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,HOME AND KITCHEN II,13078.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,HOME APPLIANCES,210.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,HOME CARE,226089.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,LADIESWEAR,0.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,LAWN AND GARDEN,27.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,LINGERIE,6613.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,"LIQUOR,WINE,BEER",60468.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,MAGAZINES,978.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,MEATS,128605.771504
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,PERSONAL CARE,331879.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,PET SUPPLIES,448.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,PLAYERS AND ELECTRONICS,3291.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,POULTRY,158675.6287867
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,PREPARED FOODS,70381.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,PRODUCE,626982.49844
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,SCHOOL AND OFFICE SUPPLIES,2347.0
+16,Santo Domingo,Santo Domingo de los Tsachilas,C,SEAFOOD,4672.0
+17,Quito,Pichincha,C,AUTOMOTIVE,10287.0
+17,Quito,Pichincha,C,BABY CARE,257.0
+17,Quito,Pichincha,C,BEAUTY,3087.0
+17,Quito,Pichincha,C,BEVERAGES,4045762.0
+17,Quito,Pichincha,C,BOOKS,0.0
+17,Quito,Pichincha,C,BREAD/BAKERY,424923.0
+17,Quito,Pichincha,C,CELEBRATION,7853.0
+17,Quito,Pichincha,C,CLEANING,1796260.0
+17,Quito,Pichincha,C,DAIRY,918600.0
+17,Quito,Pichincha,C,DELI,714225.0
+17,Quito,Pichincha,C,EGGS,304238.0
+17,Quito,Pichincha,C,FROZEN FOODS,162073.516048
+17,Quito,Pichincha,C,GROCERY I,6453635.217
+17,Quito,Pichincha,C,GROCERY II,13821.0
+17,Quito,Pichincha,C,HARDWARE,1242.0
+17,Quito,Pichincha,C,HOME AND KITCHEN I,28512.0
+17,Quito,Pichincha,C,HOME AND KITCHEN II,26451.0
+17,Quito,Pichincha,C,HOME APPLIANCES,293.0
+17,Quito,Pichincha,C,HOME CARE,319371.0
+17,Quito,Pichincha,C,LADIESWEAR,3210.0
+17,Quito,Pichincha,C,LAWN AND GARDEN,207.0
+17,Quito,Pichincha,C,LINGERIE,8955.0
+17,Quito,Pichincha,C,"LIQUOR,WINE,BEER",65756.0
+17,Quito,Pichincha,C,MAGAZINES,2125.0
+17,Quito,Pichincha,C,MEATS,425823.241008
+17,Quito,Pichincha,C,PERSONAL CARE,384514.0
+17,Quito,Pichincha,C,PET SUPPLIES,1703.0
+17,Quito,Pichincha,C,PLAYERS AND ELECTRONICS,8649.0
+17,Quito,Pichincha,C,POULTRY,506876.985405
+17,Quito,Pichincha,C,PREPARED FOODS,109956.0
+17,Quito,Pichincha,C,PRODUCE,1262602.8287
+17,Quito,Pichincha,C,SCHOOL AND OFFICE SUPPLIES,980.0
+17,Quito,Pichincha,C,SEAFOOD,18720.462
+18,Quito,Pichincha,B,AUTOMOTIVE,6412.0
+18,Quito,Pichincha,B,BABY CARE,167.0
+18,Quito,Pichincha,B,BEAUTY,3367.0
+18,Quito,Pichincha,B,BEVERAGES,2769768.0
+18,Quito,Pichincha,B,BOOKS,0.0
+18,Quito,Pichincha,B,BREAD/BAKERY,1109745.685
+18,Quito,Pichincha,B,CELEBRATION,7858.0
+18,Quito,Pichincha,B,CLEANING,1010821.0
+18,Quito,Pichincha,B,DAIRY,797023.0
+18,Quito,Pichincha,B,DELI,345318.513566
+18,Quito,Pichincha,B,EGGS,271943.0
+18,Quito,Pichincha,B,FROZEN FOODS,95535.482915
+18,Quito,Pichincha,B,GROCERY I,4138689.337
+18,Quito,Pichincha,B,GROCERY II,28016.0
+18,Quito,Pichincha,B,HARDWARE,1565.0
+18,Quito,Pichincha,B,HOME AND KITCHEN I,24185.0
+18,Quito,Pichincha,B,HOME AND KITCHEN II,14147.0
+18,Quito,Pichincha,B,HOME APPLIANCES,290.0
+18,Quito,Pichincha,B,HOME CARE,183364.0
+18,Quito,Pichincha,B,LADIESWEAR,10572.0
+18,Quito,Pichincha,B,LAWN AND GARDEN,2372.0
+18,Quito,Pichincha,B,LINGERIE,7359.0
+18,Quito,Pichincha,B,"LIQUOR,WINE,BEER",95993.0
+18,Quito,Pichincha,B,MAGAZINES,1947.0
+18,Quito,Pichincha,B,MEATS,166150.158799
+18,Quito,Pichincha,B,PERSONAL CARE,251406.0
+18,Quito,Pichincha,B,PET SUPPLIES,3099.0
+18,Quito,Pichincha,B,PLAYERS AND ELECTRONICS,7240.0
+18,Quito,Pichincha,B,POULTRY,327554.377473
+18,Quito,Pichincha,B,PREPARED FOODS,84098.671016
+18,Quito,Pichincha,B,PRODUCE,1474337.22344
+18,Quito,Pichincha,B,SCHOOL AND OFFICE SUPPLIES,3243.0
+18,Quito,Pichincha,B,SEAFOOD,15789.2406953
+19,Guaranda,Bolivar,C,AUTOMOTIVE,11027.0
+19,Guaranda,Bolivar,C,BABY CARE,200.0
+19,Guaranda,Bolivar,C,BEAUTY,2704.0
+19,Guaranda,Bolivar,C,BEVERAGES,3296869.0
+19,Guaranda,Bolivar,C,BOOKS,0.0
+19,Guaranda,Bolivar,C,BREAD/BAKERY,303131.0
+19,Guaranda,Bolivar,C,CELEBRATION,8861.0
+19,Guaranda,Bolivar,C,CLEANING,1561422.0
+19,Guaranda,Bolivar,C,DAIRY,487473.0
+19,Guaranda,Bolivar,C,DELI,461214.0
+19,Guaranda,Bolivar,C,EGGS,109232.0
+19,Guaranda,Bolivar,C,FROZEN FOODS,102744.670873
+19,Guaranda,Bolivar,C,GROCERY I,5085657.647
+19,Guaranda,Bolivar,C,GROCERY II,16623.0
+19,Guaranda,Bolivar,C,HARDWARE,2159.0
+19,Guaranda,Bolivar,C,HOME AND KITCHEN I,23887.0
+19,Guaranda,Bolivar,C,HOME AND KITCHEN II,14341.0
+19,Guaranda,Bolivar,C,HOME APPLIANCES,274.0
+19,Guaranda,Bolivar,C,HOME CARE,210863.0
+19,Guaranda,Bolivar,C,LADIESWEAR,8889.0
+19,Guaranda,Bolivar,C,LAWN AND GARDEN,27.0
+19,Guaranda,Bolivar,C,LINGERIE,7466.0
+19,Guaranda,Bolivar,C,"LIQUOR,WINE,BEER",56851.0
+19,Guaranda,Bolivar,C,MAGAZINES,1722.0
+19,Guaranda,Bolivar,C,MEATS,237954.137937
+19,Guaranda,Bolivar,C,PERSONAL CARE,314972.0
+19,Guaranda,Bolivar,C,PET SUPPLIES,958.0
+19,Guaranda,Bolivar,C,PLAYERS AND ELECTRONICS,4988.0
+19,Guaranda,Bolivar,C,POULTRY,205243.216223
+19,Guaranda,Bolivar,C,PREPARED FOODS,56405.0
+19,Guaranda,Bolivar,C,PRODUCE,447151.1647
+19,Guaranda,Bolivar,C,SCHOOL AND OFFICE SUPPLIES,888.0
+19,Guaranda,Bolivar,C,SEAFOOD,7313.0
+20,Quito,Pichincha,B,AUTOMOTIVE,7576.0
+20,Quito,Pichincha,B,BABY CARE,525.0
+20,Quito,Pichincha,B,BEAUTY,4798.0
+20,Quito,Pichincha,B,BEVERAGES,2760887.0
+20,Quito,Pichincha,B,BOOKS,0.0
+20,Quito,Pichincha,B,BREAD/BAKERY,432430.426
+20,Quito,Pichincha,B,CELEBRATION,6746.0
+20,Quito,Pichincha,B,CLEANING,1183570.0
+20,Quito,Pichincha,B,DAIRY,689312.0
+20,Quito,Pichincha,B,DELI,549777.49901
+20,Quito,Pichincha,B,EGGS,112570.0
+20,Quito,Pichincha,B,FROZEN FOODS,100603.749024
+20,Quito,Pichincha,B,GROCERY I,4785023.904
+20,Quito,Pichincha,B,GROCERY II,11917.0
+20,Quito,Pichincha,B,HARDWARE,716.0
+20,Quito,Pichincha,B,HOME AND KITCHEN I,25300.0
+20,Quito,Pichincha,B,HOME AND KITCHEN II,14236.0
+20,Quito,Pichincha,B,HOME APPLIANCES,166.0
+20,Quito,Pichincha,B,HOME CARE,273820.0
+20,Quito,Pichincha,B,LADIESWEAR,6995.0
+20,Quito,Pichincha,B,LAWN AND GARDEN,5183.0
+20,Quito,Pichincha,B,LINGERIE,3173.0
+20,Quito,Pichincha,B,"LIQUOR,WINE,BEER",39168.0
+20,Quito,Pichincha,B,MAGAZINES,1079.0
+20,Quito,Pichincha,B,MEATS,269489.333286
+20,Quito,Pichincha,B,PERSONAL CARE,354580.0
+20,Quito,Pichincha,B,PET SUPPLIES,2489.0
+20,Quito,Pichincha,B,PLAYERS AND ELECTRONICS,4675.0
+20,Quito,Pichincha,B,POULTRY,341145.633076
+20,Quito,Pichincha,B,PREPARED FOODS,74306.568069
+20,Quito,Pichincha,B,PRODUCE,841977.55338
+20,Quito,Pichincha,B,SCHOOL AND OFFICE SUPPLIES,5129.0
+20,Quito,Pichincha,B,SEAFOOD,11589.9269871
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,AUTOMOTIVE,7842.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,BABY CARE,489.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,BEAUTY,3657.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,BEVERAGES,1963792.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,BOOKS,0.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,BREAD/BAKERY,367756.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,CELEBRATION,5677.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,CLEANING,962212.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,DAIRY,421817.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,DELI,243181.83097
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,EGGS,164313.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,FROZEN FOODS,74178.393919
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,GROCERY I,3162815.933
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,GROCERY II,10282.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,HARDWARE,706.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,HOME AND KITCHEN I,26374.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,HOME AND KITCHEN II,22569.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,HOME APPLIANCES,238.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,HOME CARE,241824.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,LADIESWEAR,4029.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,LAWN AND GARDEN,1890.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,LINGERIE,6934.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,"LIQUOR,WINE,BEER",51318.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,MAGAZINES,1614.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,MEATS,84227.768074
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,PERSONAL CARE,244109.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,PET SUPPLIES,1440.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,PLAYERS AND ELECTRONICS,6017.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,POULTRY,130544.148033
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,PREPARED FOODS,77994.140014
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,PRODUCE,957781.6962
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,SCHOOL AND OFFICE SUPPLIES,3509.0
+21,Santo Domingo,Santo Domingo de los Tsachilas,B,SEAFOOD,4374.0
+22,Puyo,Pastaza,C,AUTOMOTIVE,3677.0
+22,Puyo,Pastaza,C,BABY CARE,196.0
+22,Puyo,Pastaza,C,BEAUTY,1050.0
+22,Puyo,Pastaza,C,BEVERAGES,857889.0
+22,Puyo,Pastaza,C,BOOKS,0.0
+22,Puyo,Pastaza,C,BREAD/BAKERY,90575.0
+22,Puyo,Pastaza,C,CELEBRATION,6076.0
+22,Puyo,Pastaza,C,CLEANING,416453.0
+22,Puyo,Pastaza,C,DAIRY,203463.0
+22,Puyo,Pastaza,C,DELI,109294.0
+22,Puyo,Pastaza,C,EGGS,35378.0
+22,Puyo,Pastaza,C,FROZEN FOODS,49687.746021
+22,Puyo,Pastaza,C,GROCERY I,1570262.309
+22,Puyo,Pastaza,C,GROCERY II,3922.0
+22,Puyo,Pastaza,C,HARDWARE,698.0
+22,Puyo,Pastaza,C,HOME AND KITCHEN I,26904.0
+22,Puyo,Pastaza,C,HOME AND KITCHEN II,12790.0
+22,Puyo,Pastaza,C,HOME APPLIANCES,228.0
+22,Puyo,Pastaza,C,HOME CARE,105959.0
+22,Puyo,Pastaza,C,LADIESWEAR,350.0
+22,Puyo,Pastaza,C,LAWN AND GARDEN,12.0
+22,Puyo,Pastaza,C,LINGERIE,4781.0
+22,Puyo,Pastaza,C,"LIQUOR,WINE,BEER",23066.0
+22,Puyo,Pastaza,C,MAGAZINES,1915.0
+22,Puyo,Pastaza,C,MEATS,70522.035038
+22,Puyo,Pastaza,C,PERSONAL CARE,107083.0
+22,Puyo,Pastaza,C,PET SUPPLIES,652.0
+22,Puyo,Pastaza,C,PLAYERS AND ELECTRONICS,3776.0
+22,Puyo,Pastaza,C,POULTRY,83227.728891
+22,Puyo,Pastaza,C,PREPARED FOODS,30439.0
+22,Puyo,Pastaza,C,PRODUCE,268022.92185
+22,Puyo,Pastaza,C,SCHOOL AND OFFICE SUPPLIES,418.0
+22,Puyo,Pastaza,C,SEAFOOD,1435.0
+23,Ambato,Tungurahua,D,AUTOMOTIVE,3875.0
+23,Ambato,Tungurahua,D,BABY CARE,0.0
+23,Ambato,Tungurahua,D,BEAUTY,2547.0
+23,Ambato,Tungurahua,D,BEVERAGES,1978271.0
+23,Ambato,Tungurahua,D,BOOKS,88.0
+23,Ambato,Tungurahua,D,BREAD/BAKERY,460859.62805
+23,Ambato,Tungurahua,D,CELEBRATION,14697.0
+23,Ambato,Tungurahua,D,CLEANING,965506.0
+23,Ambato,Tungurahua,D,DAIRY,782983.0
+23,Ambato,Tungurahua,D,DELI,224534.459906
+23,Ambato,Tungurahua,D,EGGS,92936.0
+23,Ambato,Tungurahua,D,FROZEN FOODS,168762.966102
+23,Ambato,Tungurahua,D,GROCERY I,3339714.0
+23,Ambato,Tungurahua,D,GROCERY II,40787.0
+23,Ambato,Tungurahua,D,HARDWARE,224.0
+23,Ambato,Tungurahua,D,HOME AND KITCHEN I,11335.0
+23,Ambato,Tungurahua,D,HOME AND KITCHEN II,14979.0
+23,Ambato,Tungurahua,D,HOME APPLIANCES,356.0
+23,Ambato,Tungurahua,D,HOME CARE,146125.0
+23,Ambato,Tungurahua,D,LADIESWEAR,11454.0
+23,Ambato,Tungurahua,D,LAWN AND GARDEN,1574.0
+23,Ambato,Tungurahua,D,LINGERIE,7720.0
+23,Ambato,Tungurahua,D,"LIQUOR,WINE,BEER",92334.0
+23,Ambato,Tungurahua,D,MAGAZINES,3626.0
+23,Ambato,Tungurahua,D,MEATS,1101125.28233
+23,Ambato,Tungurahua,D,PERSONAL CARE,236107.0
+23,Ambato,Tungurahua,D,PET SUPPLIES,2957.0
+23,Ambato,Tungurahua,D,PLAYERS AND ELECTRONICS,4209.0
+23,Ambato,Tungurahua,D,POULTRY,499381.390618
+23,Ambato,Tungurahua,D,PREPARED FOODS,83206.152005
+23,Ambato,Tungurahua,D,PRODUCE,1332592.9259
+23,Ambato,Tungurahua,D,SCHOOL AND OFFICE SUPPLIES,292.0
+23,Ambato,Tungurahua,D,SEAFOOD,26221.8699977
+24,Guayaquil,Guayas,D,AUTOMOTIVE,5543.0
+24,Guayaquil,Guayas,D,BABY CARE,71.0
+24,Guayaquil,Guayas,D,BEAUTY,8247.0
+24,Guayaquil,Guayas,D,BEVERAGES,4751466.0
+24,Guayaquil,Guayas,D,BOOKS,227.0
+24,Guayaquil,Guayas,D,BREAD/BAKERY,1165159.332
+24,Guayaquil,Guayas,D,CELEBRATION,18101.0
+24,Guayaquil,Guayas,D,CLEANING,1869705.0
+24,Guayaquil,Guayas,D,DAIRY,1807146.0
+24,Guayaquil,Guayas,D,DELI,426231.91307
+24,Guayaquil,Guayas,D,EGGS,344409.0
+24,Guayaquil,Guayas,D,FROZEN FOODS,350768.727939
+24,Guayaquil,Guayas,D,GROCERY I,6343142.0
+24,Guayaquil,Guayas,D,GROCERY II,43237.0
+24,Guayaquil,Guayas,D,HARDWARE,1874.0
+24,Guayaquil,Guayas,D,HOME AND KITCHEN I,25764.0
+24,Guayaquil,Guayas,D,HOME AND KITCHEN II,47388.0
+24,Guayaquil,Guayas,D,HOME APPLIANCES,581.0
+24,Guayaquil,Guayas,D,HOME CARE,288848.0
+24,Guayaquil,Guayas,D,LADIESWEAR,14218.0
+24,Guayaquil,Guayas,D,LAWN AND GARDEN,22835.0
+24,Guayaquil,Guayas,D,LINGERIE,15528.0
+24,Guayaquil,Guayas,D,"LIQUOR,WINE,BEER",167724.0
+24,Guayaquil,Guayas,D,MAGAZINES,11016.0
+24,Guayaquil,Guayas,D,MEATS,653339.65434
+24,Guayaquil,Guayas,D,PERSONAL CARE,443376.0
+24,Guayaquil,Guayas,D,PET SUPPLIES,15007.0
+24,Guayaquil,Guayas,D,PLAYERS AND ELECTRONICS,12159.0
+24,Guayaquil,Guayas,D,POULTRY,820551.31124
+24,Guayaquil,Guayas,D,PREPARED FOODS,217347.634019
+24,Guayaquil,Guayas,D,PRODUCE,3815978.3634
+24,Guayaquil,Guayas,D,SCHOOL AND OFFICE SUPPLIES,950.0
+24,Guayaquil,Guayas,D,SEAFOOD,59793.765705
+25,Salinas,Santa Elena,D,AUTOMOTIVE,3487.0
+25,Salinas,Santa Elena,D,BABY CARE,31.0
+25,Salinas,Santa Elena,D,BEAUTY,3991.0
+25,Salinas,Santa Elena,D,BEVERAGES,2963941.0
+25,Salinas,Santa Elena,D,BOOKS,125.0
+25,Salinas,Santa Elena,D,BREAD/BAKERY,484481.630906
+25,Salinas,Santa Elena,D,CELEBRATION,7487.0
+25,Salinas,Santa Elena,D,CLEANING,788187.0
+25,Salinas,Santa Elena,D,DAIRY,788770.0
+25,Salinas,Santa Elena,D,DELI,211847.823206
+25,Salinas,Santa Elena,D,EGGS,179742.0
+25,Salinas,Santa Elena,D,FROZEN FOODS,288463.240985
+25,Salinas,Santa Elena,D,GROCERY I,2838388.0
+25,Salinas,Santa Elena,D,GROCERY II,19353.0
+25,Salinas,Santa Elena,D,HARDWARE,1403.0
+25,Salinas,Santa Elena,D,HOME AND KITCHEN I,30683.0
+25,Salinas,Santa Elena,D,HOME AND KITCHEN II,18838.0
+25,Salinas,Santa Elena,D,HOME APPLIANCES,224.0
+25,Salinas,Santa Elena,D,HOME CARE,111032.0
+25,Salinas,Santa Elena,D,LADIESWEAR,0.0
+25,Salinas,Santa Elena,D,LAWN AND GARDEN,17129.0
+25,Salinas,Santa Elena,D,LINGERIE,14359.0
+25,Salinas,Santa Elena,D,"LIQUOR,WINE,BEER",295033.0
+25,Salinas,Santa Elena,D,MAGAZINES,5621.0
+25,Salinas,Santa Elena,D,MEATS,338886.169042
+25,Salinas,Santa Elena,D,PERSONAL CARE,178554.0
+25,Salinas,Santa Elena,D,PET SUPPLIES,3500.0
+25,Salinas,Santa Elena,D,PLAYERS AND ELECTRONICS,5454.0
+25,Salinas,Santa Elena,D,POULTRY,263339.464961
+25,Salinas,Santa Elena,D,PREPARED FOODS,87154.2600265
+25,Salinas,Santa Elena,D,PRODUCE,1461760.16545
+25,Salinas,Santa Elena,D,SCHOOL AND OFFICE SUPPLIES,566.0
+25,Salinas,Santa Elena,D,SEAFOOD,9167.117998
+26,Guayaquil,Guayas,D,AUTOMOTIVE,6005.0
+26,Guayaquil,Guayas,D,BABY CARE,96.0
+26,Guayaquil,Guayas,D,BEAUTY,1593.0
+26,Guayaquil,Guayas,D,BEVERAGES,1335172.0
+26,Guayaquil,Guayas,D,BOOKS,14.0
+26,Guayaquil,Guayas,D,BREAD/BAKERY,379122.594
+26,Guayaquil,Guayas,D,CELEBRATION,7400.0
+26,Guayaquil,Guayas,D,CLEANING,740042.0
+26,Guayaquil,Guayas,D,DAIRY,399663.0
+26,Guayaquil,Guayas,D,DELI,152847.512134
+26,Guayaquil,Guayas,D,EGGS,70365.0
+26,Guayaquil,Guayas,D,FROZEN FOODS,130412.2900505
+26,Guayaquil,Guayas,D,GROCERY I,2720338.0
+26,Guayaquil,Guayas,D,GROCERY II,7589.0
+26,Guayaquil,Guayas,D,HARDWARE,1359.0
+26,Guayaquil,Guayas,D,HOME AND KITCHEN I,12904.0
+26,Guayaquil,Guayas,D,HOME AND KITCHEN II,8957.0
+26,Guayaquil,Guayas,D,HOME APPLIANCES,340.0
+26,Guayaquil,Guayas,D,HOME CARE,94185.0
+26,Guayaquil,Guayas,D,LADIESWEAR,1877.0
+26,Guayaquil,Guayas,D,LAWN AND GARDEN,2759.0
+26,Guayaquil,Guayas,D,LINGERIE,6591.0
+26,Guayaquil,Guayas,D,"LIQUOR,WINE,BEER",56492.0
+26,Guayaquil,Guayas,D,MAGAZINES,379.0
+26,Guayaquil,Guayas,D,MEATS,471972.493506
+26,Guayaquil,Guayas,D,PERSONAL CARE,270683.0
+26,Guayaquil,Guayas,D,PET SUPPLIES,1502.0
+26,Guayaquil,Guayas,D,PLAYERS AND ELECTRONICS,1967.0
+26,Guayaquil,Guayas,D,POULTRY,273002.421613
+26,Guayaquil,Guayas,D,PREPARED FOODS,30652.0
+26,Guayaquil,Guayas,D,PRODUCE,562174.60606
+26,Guayaquil,Guayas,D,SCHOOL AND OFFICE SUPPLIES,936.0
+26,Guayaquil,Guayas,D,SEAFOOD,5729.9745013
+27,Daule,Guayas,D,AUTOMOTIVE,8205.0
+27,Daule,Guayas,D,BABY CARE,89.0
+27,Daule,Guayas,D,BEAUTY,5962.0
+27,Daule,Guayas,D,BEVERAGES,4049827.0
+27,Daule,Guayas,D,BOOKS,100.0
+27,Daule,Guayas,D,BREAD/BAKERY,1010174.10873
+27,Daule,Guayas,D,CELEBRATION,16743.0
+27,Daule,Guayas,D,CLEANING,1330773.0
+27,Daule,Guayas,D,DAIRY,1334242.0
+27,Daule,Guayas,D,DELI,420652.65508
+27,Daule,Guayas,D,EGGS,355433.0
+27,Daule,Guayas,D,FROZEN FOODS,270279.916932
+27,Daule,Guayas,D,GROCERY I,5357934.0
+27,Daule,Guayas,D,GROCERY II,36535.0
+27,Daule,Guayas,D,HARDWARE,2952.0
+27,Daule,Guayas,D,HOME AND KITCHEN I,20009.0
+27,Daule,Guayas,D,HOME AND KITCHEN II,23962.0
+27,Daule,Guayas,D,HOME APPLIANCES,557.0
+27,Daule,Guayas,D,HOME CARE,226391.0
+27,Daule,Guayas,D,LADIESWEAR,7575.0
+27,Daule,Guayas,D,LAWN AND GARDEN,22605.0
+27,Daule,Guayas,D,LINGERIE,10213.0
+27,Daule,Guayas,D,"LIQUOR,WINE,BEER",263840.0
+27,Daule,Guayas,D,MAGAZINES,3765.0
+27,Daule,Guayas,D,MEATS,450002.439034
+27,Daule,Guayas,D,PERSONAL CARE,342804.0
+27,Daule,Guayas,D,PET SUPPLIES,8819.0
+27,Daule,Guayas,D,PLAYERS AND ELECTRONICS,9298.0
+27,Daule,Guayas,D,POULTRY,636414.98817
+27,Daule,Guayas,D,PREPARED FOODS,150653.850091
+27,Daule,Guayas,D,PRODUCE,2770158.573
+27,Daule,Guayas,D,SCHOOL AND OFFICE SUPPLIES,1041.0
+27,Daule,Guayas,D,SEAFOOD,40010.8504972
+28,Guayaquil,Guayas,E,AUTOMOTIVE,12023.0
+28,Guayaquil,Guayas,E,BABY CARE,43.0
+28,Guayaquil,Guayas,E,BEAUTY,3271.0
+28,Guayaquil,Guayas,E,BEVERAGES,3776698.0
+28,Guayaquil,Guayas,E,BOOKS,0.0
+28,Guayaquil,Guayas,E,BREAD/BAKERY,947467.0
+28,Guayaquil,Guayas,E,CELEBRATION,12591.0
+28,Guayaquil,Guayas,E,CLEANING,1715333.0
+28,Guayaquil,Guayas,E,DAIRY,1078484.0
+28,Guayaquil,Guayas,E,DELI,566508.597842
+28,Guayaquil,Guayas,E,EGGS,393954.0
+28,Guayaquil,Guayas,E,FROZEN FOODS,158549.405086
+28,Guayaquil,Guayas,E,GROCERY I,6202452.283
+28,Guayaquil,Guayas,E,GROCERY II,12148.0
+28,Guayaquil,Guayas,E,HARDWARE,2097.0
+28,Guayaquil,Guayas,E,HOME AND KITCHEN I,37595.0
+28,Guayaquil,Guayas,E,HOME AND KITCHEN II,18273.0
+28,Guayaquil,Guayas,E,HOME APPLIANCES,871.0
+28,Guayaquil,Guayas,E,HOME CARE,284500.0
+28,Guayaquil,Guayas,E,LADIESWEAR,0.0
+28,Guayaquil,Guayas,E,LAWN AND GARDEN,3089.0
+28,Guayaquil,Guayas,E,LINGERIE,12477.0
+28,Guayaquil,Guayas,E,"LIQUOR,WINE,BEER",196813.0
+28,Guayaquil,Guayas,E,MAGAZINES,1106.0
+28,Guayaquil,Guayas,E,MEATS,329269.024808
+28,Guayaquil,Guayas,E,PERSONAL CARE,501666.0
+28,Guayaquil,Guayas,E,PET SUPPLIES,4311.0
+28,Guayaquil,Guayas,E,PLAYERS AND ELECTRONICS,5326.0
+28,Guayaquil,Guayas,E,POULTRY,385285.781949
+28,Guayaquil,Guayas,E,PREPARED FOODS,108597.761991
+28,Guayaquil,Guayas,E,PRODUCE,1595405.69385
+28,Guayaquil,Guayas,E,SCHOOL AND OFFICE SUPPLIES,6144.0
+28,Guayaquil,Guayas,E,SEAFOOD,10806.2853999
+29,Guayaquil,Guayas,E,AUTOMOTIVE,5561.0
+29,Guayaquil,Guayas,E,BABY CARE,376.0
+29,Guayaquil,Guayas,E,BEAUTY,2635.0
+29,Guayaquil,Guayas,E,BEVERAGES,2196979.0
+29,Guayaquil,Guayas,E,BOOKS,0.0
+29,Guayaquil,Guayas,E,BREAD/BAKERY,516302.0
+29,Guayaquil,Guayas,E,CELEBRATION,8323.0
+29,Guayaquil,Guayas,E,CLEANING,834743.0
+29,Guayaquil,Guayas,E,DAIRY,599783.0
+29,Guayaquil,Guayas,E,DELI,246306.31802
+29,Guayaquil,Guayas,E,EGGS,168668.0
+29,Guayaquil,Guayas,E,FROZEN FOODS,87026.220897
+29,Guayaquil,Guayas,E,GROCERY I,3096933.145
+29,Guayaquil,Guayas,E,GROCERY II,9234.0
+29,Guayaquil,Guayas,E,HARDWARE,970.0
+29,Guayaquil,Guayas,E,HOME AND KITCHEN I,21397.0
+29,Guayaquil,Guayas,E,HOME AND KITCHEN II,15724.0
+29,Guayaquil,Guayas,E,HOME APPLIANCES,243.0
+29,Guayaquil,Guayas,E,HOME CARE,196552.0
+29,Guayaquil,Guayas,E,LADIESWEAR,0.0
+29,Guayaquil,Guayas,E,LAWN AND GARDEN,1806.0
+29,Guayaquil,Guayas,E,LINGERIE,4228.0
+29,Guayaquil,Guayas,E,"LIQUOR,WINE,BEER",105108.0
+29,Guayaquil,Guayas,E,MAGAZINES,1159.0
+29,Guayaquil,Guayas,E,MEATS,111913.169968
+29,Guayaquil,Guayas,E,PERSONAL CARE,238406.0
+29,Guayaquil,Guayas,E,PET SUPPLIES,3630.0
+29,Guayaquil,Guayas,E,PLAYERS AND ELECTRONICS,4445.0
+29,Guayaquil,Guayas,E,POULTRY,176184.110026
+29,Guayaquil,Guayas,E,PREPARED FOODS,60364.362973
+29,Guayaquil,Guayas,E,PRODUCE,1000704.3692
+29,Guayaquil,Guayas,E,SCHOOL AND OFFICE SUPPLIES,3443.0
+29,Guayaquil,Guayas,E,SEAFOOD,6011.0
+30,Guayaquil,Guayas,C,AUTOMOTIVE,5191.0
+30,Guayaquil,Guayas,C,BABY CARE,112.0
+30,Guayaquil,Guayas,C,BEAUTY,1006.0
+30,Guayaquil,Guayas,C,BEVERAGES,1568382.0
+30,Guayaquil,Guayas,C,BOOKS,0.0
+30,Guayaquil,Guayas,C,BREAD/BAKERY,256088.0
+30,Guayaquil,Guayas,C,CELEBRATION,4090.0
+30,Guayaquil,Guayas,C,CLEANING,808847.0
+30,Guayaquil,Guayas,C,DAIRY,374882.0
+30,Guayaquil,Guayas,C,DELI,176335.0
+30,Guayaquil,Guayas,C,EGGS,200408.0
+30,Guayaquil,Guayas,C,FROZEN FOODS,97757.290041
+30,Guayaquil,Guayas,C,GROCERY I,2616631.648
+30,Guayaquil,Guayas,C,GROCERY II,5905.0
+30,Guayaquil,Guayas,C,HARDWARE,1595.0
+30,Guayaquil,Guayas,C,HOME AND KITCHEN I,15541.0
+30,Guayaquil,Guayas,C,HOME AND KITCHEN II,7826.0
+30,Guayaquil,Guayas,C,HOME APPLIANCES,497.0
+30,Guayaquil,Guayas,C,HOME CARE,127510.0
+30,Guayaquil,Guayas,C,LADIESWEAR,665.0
+30,Guayaquil,Guayas,C,LAWN AND GARDEN,0.0
+30,Guayaquil,Guayas,C,LINGERIE,6852.0
+30,Guayaquil,Guayas,C,"LIQUOR,WINE,BEER",91698.0
+30,Guayaquil,Guayas,C,MAGAZINES,592.0
+30,Guayaquil,Guayas,C,MEATS,97197.024796
+30,Guayaquil,Guayas,C,PERSONAL CARE,173339.0
+30,Guayaquil,Guayas,C,PET SUPPLIES,1413.0
+30,Guayaquil,Guayas,C,PLAYERS AND ELECTRONICS,4054.0
+30,Guayaquil,Guayas,C,POULTRY,166496.83274
+30,Guayaquil,Guayas,C,PREPARED FOODS,38279.0
+30,Guayaquil,Guayas,C,PRODUCE,525550.868386
+30,Guayaquil,Guayas,C,SCHOOL AND OFFICE SUPPLIES,1354.0
+30,Guayaquil,Guayas,C,SEAFOOD,5979.0
+31,Babahoyo,Los Rios,B,AUTOMOTIVE,12720.0
+31,Babahoyo,Los Rios,B,BABY CARE,904.0
+31,Babahoyo,Los Rios,B,BEAUTY,4343.0
+31,Babahoyo,Los Rios,B,BEVERAGES,3044753.0
+31,Babahoyo,Los Rios,B,BOOKS,0.0
+31,Babahoyo,Los Rios,B,BREAD/BAKERY,785139.0
+31,Babahoyo,Los Rios,B,CELEBRATION,8854.0
+31,Babahoyo,Los Rios,B,CLEANING,2101457.0
+31,Babahoyo,Los Rios,B,DAIRY,990235.0
+31,Babahoyo,Los Rios,B,DELI,414688.402583
+31,Babahoyo,Los Rios,B,EGGS,398037.0
+31,Babahoyo,Los Rios,B,FROZEN FOODS,180478.98772900001
+31,Babahoyo,Los Rios,B,GROCERY I,6607823.433
+31,Babahoyo,Los Rios,B,GROCERY II,15712.0
+31,Babahoyo,Los Rios,B,HARDWARE,1204.0
+31,Babahoyo,Los Rios,B,HOME AND KITCHEN I,23731.0
+31,Babahoyo,Los Rios,B,HOME AND KITCHEN II,21120.0
+31,Babahoyo,Los Rios,B,HOME APPLIANCES,668.0
+31,Babahoyo,Los Rios,B,HOME CARE,313585.0
+31,Babahoyo,Los Rios,B,LADIESWEAR,2416.0
+31,Babahoyo,Los Rios,B,LAWN AND GARDEN,2023.0
+31,Babahoyo,Los Rios,B,LINGERIE,20310.0
+31,Babahoyo,Los Rios,B,"LIQUOR,WINE,BEER",50968.0
+31,Babahoyo,Los Rios,B,MAGAZINES,1080.0
+31,Babahoyo,Los Rios,B,MEATS,513526.215664
+31,Babahoyo,Los Rios,B,PERSONAL CARE,496356.0
+31,Babahoyo,Los Rios,B,PET SUPPLIES,2500.0
+31,Babahoyo,Los Rios,B,PLAYERS AND ELECTRONICS,7864.0
+31,Babahoyo,Los Rios,B,POULTRY,231992.484723
+31,Babahoyo,Los Rios,B,PREPARED FOODS,121755.669998
+31,Babahoyo,Los Rios,B,PRODUCE,1357407.50781
+31,Babahoyo,Los Rios,B,SCHOOL AND OFFICE SUPPLIES,4358.0
+31,Babahoyo,Los Rios,B,SEAFOOD,8863.0
+32,Guayaquil,Guayas,C,AUTOMOTIVE,3099.0
+32,Guayaquil,Guayas,C,BABY CARE,73.0
+32,Guayaquil,Guayas,C,BEAUTY,436.0
+32,Guayaquil,Guayas,C,BEVERAGES,1011299.0
+32,Guayaquil,Guayas,C,BOOKS,0.0
+32,Guayaquil,Guayas,C,BREAD/BAKERY,167321.0
+32,Guayaquil,Guayas,C,CELEBRATION,3779.0
+32,Guayaquil,Guayas,C,CLEANING,759688.0
+32,Guayaquil,Guayas,C,DAIRY,242011.0
+32,Guayaquil,Guayas,C,DELI,163084.0
+32,Guayaquil,Guayas,C,EGGS,225205.0
+32,Guayaquil,Guayas,C,FROZEN FOODS,47878.7899375
+32,Guayaquil,Guayas,C,GROCERY I,2476687.577
+32,Guayaquil,Guayas,C,GROCERY II,2946.0
+32,Guayaquil,Guayas,C,HARDWARE,823.0
+32,Guayaquil,Guayas,C,HOME AND KITCHEN I,11990.0
+32,Guayaquil,Guayas,C,HOME AND KITCHEN II,3980.0
+32,Guayaquil,Guayas,C,HOME APPLIANCES,292.0
+32,Guayaquil,Guayas,C,HOME CARE,102148.0
+32,Guayaquil,Guayas,C,LADIESWEAR,0.0
+32,Guayaquil,Guayas,C,LAWN AND GARDEN,9.0
+32,Guayaquil,Guayas,C,LINGERIE,3873.0
+32,Guayaquil,Guayas,C,"LIQUOR,WINE,BEER",127094.0
+32,Guayaquil,Guayas,C,MAGAZINES,167.0
+32,Guayaquil,Guayas,C,MEATS,100566.75755
+32,Guayaquil,Guayas,C,PERSONAL CARE,167757.0
+32,Guayaquil,Guayas,C,PET SUPPLIES,215.0
+32,Guayaquil,Guayas,C,PLAYERS AND ELECTRONICS,1350.0
+32,Guayaquil,Guayas,C,POULTRY,106673.42606
+32,Guayaquil,Guayas,C,PREPARED FOODS,19340.0
+32,Guayaquil,Guayas,C,PRODUCE,198301.447004
+32,Guayaquil,Guayas,C,SCHOOL AND OFFICE SUPPLIES,1396.0
+32,Guayaquil,Guayas,C,SEAFOOD,2313.0
+33,Quevedo,Los Rios,C,AUTOMOTIVE,12962.0
+33,Quevedo,Los Rios,C,BABY CARE,249.0
+33,Quevedo,Los Rios,C,BEAUTY,1854.0
+33,Quevedo,Los Rios,C,BEVERAGES,2284974.0
+33,Quevedo,Los Rios,C,BOOKS,0.0
+33,Quevedo,Los Rios,C,BREAD/BAKERY,462195.0
+33,Quevedo,Los Rios,C,CELEBRATION,8477.0
+33,Quevedo,Los Rios,C,CLEANING,1794410.0
+33,Quevedo,Los Rios,C,DAIRY,648183.0
+33,Quevedo,Los Rios,C,DELI,333890.0
+33,Quevedo,Los Rios,C,EGGS,286700.0
+33,Quevedo,Los Rios,C,FROZEN FOODS,126893.944977
+33,Quevedo,Los Rios,C,GROCERY I,5162834.938
+33,Quevedo,Los Rios,C,GROCERY II,5217.0
+33,Quevedo,Los Rios,C,HARDWARE,1244.0
+33,Quevedo,Los Rios,C,HOME AND KITCHEN I,49722.0
+33,Quevedo,Los Rios,C,HOME AND KITCHEN II,19493.0
+33,Quevedo,Los Rios,C,HOME APPLIANCES,295.0
+33,Quevedo,Los Rios,C,HOME CARE,244578.0
+33,Quevedo,Los Rios,C,LADIESWEAR,0.0
+33,Quevedo,Los Rios,C,LAWN AND GARDEN,52.0
+33,Quevedo,Los Rios,C,LINGERIE,21223.0
+33,Quevedo,Los Rios,C,"LIQUOR,WINE,BEER",108387.0
+33,Quevedo,Los Rios,C,MAGAZINES,1525.0
+33,Quevedo,Los Rios,C,MEATS,423767.929181
+33,Quevedo,Los Rios,C,PERSONAL CARE,401299.0
+33,Quevedo,Los Rios,C,PET SUPPLIES,1134.0
+33,Quevedo,Los Rios,C,PLAYERS AND ELECTRONICS,5142.0
+33,Quevedo,Los Rios,C,POULTRY,355977.892491
+33,Quevedo,Los Rios,C,PREPARED FOODS,62589.0
+33,Quevedo,Los Rios,C,PRODUCE,1348705.5888
+33,Quevedo,Los Rios,C,SCHOOL AND OFFICE SUPPLIES,1800.0
+33,Quevedo,Los Rios,C,SEAFOOD,2727.0
+34,Guayaquil,Guayas,B,AUTOMOTIVE,5613.0
+34,Guayaquil,Guayas,B,BABY CARE,313.0
+34,Guayaquil,Guayas,B,BEAUTY,4611.0
+34,Guayaquil,Guayas,B,BEVERAGES,3778880.0
+34,Guayaquil,Guayas,B,BOOKS,0.0
+34,Guayaquil,Guayas,B,BREAD/BAKERY,1151912.0
+34,Guayaquil,Guayas,B,CELEBRATION,11696.0
+34,Guayaquil,Guayas,B,CLEANING,1539872.0
+34,Guayaquil,Guayas,B,DAIRY,959815.0
+34,Guayaquil,Guayas,B,DELI,422917.23935
+34,Guayaquil,Guayas,B,EGGS,193240.0
+34,Guayaquil,Guayas,B,FROZEN FOODS,214564.819902
+34,Guayaquil,Guayas,B,GROCERY I,6393696.679
+34,Guayaquil,Guayas,B,GROCERY II,9840.0
+34,Guayaquil,Guayas,B,HARDWARE,3065.0
+34,Guayaquil,Guayas,B,HOME AND KITCHEN I,41347.0
+34,Guayaquil,Guayas,B,HOME AND KITCHEN II,37795.0
+34,Guayaquil,Guayas,B,HOME APPLIANCES,1104.0
+34,Guayaquil,Guayas,B,HOME CARE,254399.0
+34,Guayaquil,Guayas,B,LADIESWEAR,5804.0
+34,Guayaquil,Guayas,B,LAWN AND GARDEN,3438.0
+34,Guayaquil,Guayas,B,LINGERIE,17287.0
+34,Guayaquil,Guayas,B,"LIQUOR,WINE,BEER",89190.0
+34,Guayaquil,Guayas,B,MAGAZINES,1808.0
+34,Guayaquil,Guayas,B,MEATS,310301.662967
+34,Guayaquil,Guayas,B,PERSONAL CARE,534978.0
+34,Guayaquil,Guayas,B,PET SUPPLIES,2656.0
+34,Guayaquil,Guayas,B,PLAYERS AND ELECTRONICS,6322.0
+34,Guayaquil,Guayas,B,POULTRY,236323.944635
+34,Guayaquil,Guayas,B,PREPARED FOODS,58873.166996
+34,Guayaquil,Guayas,B,PRODUCE,785880.6463
+34,Guayaquil,Guayas,B,SCHOOL AND OFFICE SUPPLIES,7909.0
+34,Guayaquil,Guayas,B,SEAFOOD,5282.0
+35,Playas,Guayas,C,AUTOMOTIVE,7421.0
+35,Playas,Guayas,C,BABY CARE,90.0
+35,Playas,Guayas,C,BEAUTY,449.0
+35,Playas,Guayas,C,BEVERAGES,1881026.0
+35,Playas,Guayas,C,BOOKS,0.0
+35,Playas,Guayas,C,BREAD/BAKERY,156619.0
+35,Playas,Guayas,C,CELEBRATION,2633.0
+35,Playas,Guayas,C,CLEANING,798871.0
+35,Playas,Guayas,C,DAIRY,266336.0
+35,Playas,Guayas,C,DELI,138189.0
+35,Playas,Guayas,C,EGGS,281528.0
+35,Playas,Guayas,C,FROZEN FOODS,89727.843032
+35,Playas,Guayas,C,GROCERY I,2924094.873
+35,Playas,Guayas,C,GROCERY II,5047.0
+35,Playas,Guayas,C,HARDWARE,1084.0
+35,Playas,Guayas,C,HOME AND KITCHEN I,12028.0
+35,Playas,Guayas,C,HOME AND KITCHEN II,9796.0
+35,Playas,Guayas,C,HOME APPLIANCES,336.0
+35,Playas,Guayas,C,HOME CARE,109417.0
+35,Playas,Guayas,C,LADIESWEAR,0.0
+35,Playas,Guayas,C,LAWN AND GARDEN,88.0
+35,Playas,Guayas,C,LINGERIE,2545.0
+35,Playas,Guayas,C,"LIQUOR,WINE,BEER",75575.0
+35,Playas,Guayas,C,MAGAZINES,470.0
+35,Playas,Guayas,C,MEATS,271482.066935
+35,Playas,Guayas,C,PERSONAL CARE,147059.0
+35,Playas,Guayas,C,PET SUPPLIES,456.0
+35,Playas,Guayas,C,PLAYERS AND ELECTRONICS,1186.0
+35,Playas,Guayas,C,POULTRY,94824.5967426
+35,Playas,Guayas,C,PREPARED FOODS,29257.0
+35,Playas,Guayas,C,PRODUCE,366857.04196
+35,Playas,Guayas,C,SCHOOL AND OFFICE SUPPLIES,1263.0
+35,Playas,Guayas,C,SEAFOOD,924.0
+36,Libertad,Guayas,E,AUTOMOTIVE,6177.0
+36,Libertad,Guayas,E,BABY CARE,65.0
+36,Libertad,Guayas,E,BEAUTY,2268.0
+36,Libertad,Guayas,E,BEVERAGES,3304180.0
+36,Libertad,Guayas,E,BOOKS,0.0
+36,Libertad,Guayas,E,BREAD/BAKERY,767351.0
+36,Libertad,Guayas,E,CELEBRATION,8087.0
+36,Libertad,Guayas,E,CLEANING,1371240.0
+36,Libertad,Guayas,E,DAIRY,831442.0
+36,Libertad,Guayas,E,DELI,330798.896046
+36,Libertad,Guayas,E,EGGS,184731.0
+36,Libertad,Guayas,E,FROZEN FOODS,164937.1469
+36,Libertad,Guayas,E,GROCERY I,5377028.863
+36,Libertad,Guayas,E,GROCERY II,9837.0
+36,Libertad,Guayas,E,HARDWARE,813.0
+36,Libertad,Guayas,E,HOME AND KITCHEN I,34130.0
+36,Libertad,Guayas,E,HOME AND KITCHEN II,18055.0
+36,Libertad,Guayas,E,HOME APPLIANCES,313.0
+36,Libertad,Guayas,E,HOME CARE,237869.0
+36,Libertad,Guayas,E,LADIESWEAR,93.0
+36,Libertad,Guayas,E,LAWN AND GARDEN,13549.0
+36,Libertad,Guayas,E,LINGERIE,4988.0
+36,Libertad,Guayas,E,"LIQUOR,WINE,BEER",201077.0
+36,Libertad,Guayas,E,MAGAZINES,986.0
+36,Libertad,Guayas,E,MEATS,319237.24312
+36,Libertad,Guayas,E,PERSONAL CARE,372309.0
+36,Libertad,Guayas,E,PET SUPPLIES,1886.0
+36,Libertad,Guayas,E,PLAYERS AND ELECTRONICS,5136.0
+36,Libertad,Guayas,E,POULTRY,191030.701095
+36,Libertad,Guayas,E,PREPARED FOODS,82821.052027
+36,Libertad,Guayas,E,PRODUCE,1470329.93509
+36,Libertad,Guayas,E,SCHOOL AND OFFICE SUPPLIES,8090.0
+36,Libertad,Guayas,E,SEAFOOD,1575.2593
+37,Cuenca,Azuay,D,AUTOMOTIVE,6819.0
+37,Cuenca,Azuay,D,BABY CARE,36.0
+37,Cuenca,Azuay,D,BEAUTY,7283.0
+37,Cuenca,Azuay,D,BEVERAGES,3520005.0
+37,Cuenca,Azuay,D,BOOKS,252.0
+37,Cuenca,Azuay,D,BREAD/BAKERY,921999.87991
+37,Cuenca,Azuay,D,CELEBRATION,12775.0
+37,Cuenca,Azuay,D,CLEANING,1774848.0
+37,Cuenca,Azuay,D,DAIRY,1489783.0
+37,Cuenca,Azuay,D,DELI,245711.02848
+37,Cuenca,Azuay,D,EGGS,261232.0
+37,Cuenca,Azuay,D,FROZEN FOODS,325765.605316
+37,Cuenca,Azuay,D,GROCERY I,6132254.0
+37,Cuenca,Azuay,D,GROCERY II,78428.0
+37,Cuenca,Azuay,D,HARDWARE,3241.0
+37,Cuenca,Azuay,D,HOME AND KITCHEN I,35527.0
+37,Cuenca,Azuay,D,HOME AND KITCHEN II,25621.0
+37,Cuenca,Azuay,D,HOME APPLIANCES,562.0
+37,Cuenca,Azuay,D,HOME CARE,263723.0
+37,Cuenca,Azuay,D,LADIESWEAR,27209.0
+37,Cuenca,Azuay,D,LAWN AND GARDEN,21423.0
+37,Cuenca,Azuay,D,LINGERIE,10912.0
+37,Cuenca,Azuay,D,"LIQUOR,WINE,BEER",181129.0
+37,Cuenca,Azuay,D,MAGAZINES,7961.0
+37,Cuenca,Azuay,D,MEATS,420033.853
+37,Cuenca,Azuay,D,PERSONAL CARE,429957.0
+37,Cuenca,Azuay,D,PET SUPPLIES,10735.0
+37,Cuenca,Azuay,D,PLAYERS AND ELECTRONICS,10644.0
+37,Cuenca,Azuay,D,POULTRY,411436.444035
+37,Cuenca,Azuay,D,PREPARED FOODS,222607.340045
+37,Cuenca,Azuay,D,PRODUCE,3076676.3021
+37,Cuenca,Azuay,D,SCHOOL AND OFFICE SUPPLIES,494.0
+37,Cuenca,Azuay,D,SEAFOOD,33552.1615924
+38,Loja,Loja,D,AUTOMOTIVE,10939.0
+38,Loja,Loja,D,BABY CARE,22.0
+38,Loja,Loja,D,BEAUTY,8529.0
+38,Loja,Loja,D,BEVERAGES,3070772.0
+38,Loja,Loja,D,BOOKS,163.0
+38,Loja,Loja,D,BREAD/BAKERY,898680.71301
+38,Loja,Loja,D,CELEBRATION,15623.0
+38,Loja,Loja,D,CLEANING,1801940.0
+38,Loja,Loja,D,DAIRY,1372168.0
+38,Loja,Loja,D,DELI,284645.746202
+38,Loja,Loja,D,EGGS,202785.0
+38,Loja,Loja,D,FROZEN FOODS,350892.071531
+38,Loja,Loja,D,GROCERY I,6334058.015
+38,Loja,Loja,D,GROCERY II,44500.0
+38,Loja,Loja,D,HARDWARE,2894.0
+38,Loja,Loja,D,HOME AND KITCHEN I,38302.0
+38,Loja,Loja,D,HOME AND KITCHEN II,29423.0
+38,Loja,Loja,D,HOME APPLIANCES,230.0
+38,Loja,Loja,D,HOME CARE,343678.0
+38,Loja,Loja,D,LADIESWEAR,29330.0
+38,Loja,Loja,D,LAWN AND GARDEN,14392.0
+38,Loja,Loja,D,LINGERIE,23522.0
+38,Loja,Loja,D,"LIQUOR,WINE,BEER",132588.0
+38,Loja,Loja,D,MAGAZINES,8457.0
+38,Loja,Loja,D,MEATS,311997.638102
+38,Loja,Loja,D,PERSONAL CARE,603708.0
+38,Loja,Loja,D,PET SUPPLIES,6504.0
+38,Loja,Loja,D,PLAYERS AND ELECTRONICS,9955.0
+38,Loja,Loja,D,POULTRY,264855.654109
+38,Loja,Loja,D,PREPARED FOODS,205127.605993
+38,Loja,Loja,D,PRODUCE,2405445.8208
+38,Loja,Loja,D,SCHOOL AND OFFICE SUPPLIES,590.0
+38,Loja,Loja,D,SEAFOOD,33281.9957826
+39,Cuenca,Azuay,B,AUTOMOTIVE,14919.0
+39,Cuenca,Azuay,B,BABY CARE,439.0
+39,Cuenca,Azuay,B,BEAUTY,6387.0
+39,Cuenca,Azuay,B,BEVERAGES,3824723.0
+39,Cuenca,Azuay,B,BOOKS,0.0
+39,Cuenca,Azuay,B,BREAD/BAKERY,1215752.0
+39,Cuenca,Azuay,B,CELEBRATION,11232.0
+39,Cuenca,Azuay,B,CLEANING,2180903.0
+39,Cuenca,Azuay,B,DAIRY,865934.0
+39,Cuenca,Azuay,B,DELI,310958.088472
+39,Cuenca,Azuay,B,EGGS,649329.0
+39,Cuenca,Azuay,B,FROZEN FOODS,152377.772032
+39,Cuenca,Azuay,B,GROCERY I,7199976.76
+39,Cuenca,Azuay,B,GROCERY II,48183.0
+39,Cuenca,Azuay,B,HARDWARE,3110.0
+39,Cuenca,Azuay,B,HOME AND KITCHEN I,37809.0
+39,Cuenca,Azuay,B,HOME AND KITCHEN II,22737.0
+39,Cuenca,Azuay,B,HOME APPLIANCES,705.0
+39,Cuenca,Azuay,B,HOME CARE,341246.0
+39,Cuenca,Azuay,B,LADIESWEAR,7723.0
+39,Cuenca,Azuay,B,LAWN AND GARDEN,13021.0
+39,Cuenca,Azuay,B,LINGERIE,11631.0
+39,Cuenca,Azuay,B,"LIQUOR,WINE,BEER",108132.0
+39,Cuenca,Azuay,B,MAGAZINES,3217.0
+39,Cuenca,Azuay,B,MEATS,404115.899134
+39,Cuenca,Azuay,B,PERSONAL CARE,517999.0
+39,Cuenca,Azuay,B,PET SUPPLIES,4548.0
+39,Cuenca,Azuay,B,PLAYERS AND ELECTRONICS,9095.0
+39,Cuenca,Azuay,B,POULTRY,345982.716778
+39,Cuenca,Azuay,B,PREPARED FOODS,128135.021056
+39,Cuenca,Azuay,B,PRODUCE,1789685.67627
+39,Cuenca,Azuay,B,SCHOOL AND OFFICE SUPPLIES,3129.0
+39,Cuenca,Azuay,B,SEAFOOD,19057.599798
+40,Machala,El Oro,C,AUTOMOTIVE,6460.0
+40,Machala,El Oro,C,BABY CARE,495.0
+40,Machala,El Oro,C,BEAUTY,2023.0
+40,Machala,El Oro,C,BEVERAGES,3884133.0
+40,Machala,El Oro,C,BOOKS,0.0
+40,Machala,El Oro,C,BREAD/BAKERY,612356.0
+40,Machala,El Oro,C,CELEBRATION,9397.0
+40,Machala,El Oro,C,CLEANING,2323750.0
+40,Machala,El Oro,C,DAIRY,785327.0
+40,Machala,El Oro,C,DELI,419560.196
+40,Machala,El Oro,C,EGGS,238567.0
+40,Machala,El Oro,C,FROZEN FOODS,118704.405023
+40,Machala,El Oro,C,GROCERY I,7272900.938
+40,Machala,El Oro,C,GROCERY II,14892.0
+40,Machala,El Oro,C,HARDWARE,1794.0
+40,Machala,El Oro,C,HOME AND KITCHEN I,35805.0
+40,Machala,El Oro,C,HOME AND KITCHEN II,26586.0
+40,Machala,El Oro,C,HOME APPLIANCES,369.0
+40,Machala,El Oro,C,HOME CARE,355869.0
+40,Machala,El Oro,C,LADIESWEAR,0.0
+40,Machala,El Oro,C,LAWN AND GARDEN,232.0
+40,Machala,El Oro,C,LINGERIE,13526.0
+40,Machala,El Oro,C,"LIQUOR,WINE,BEER",116885.0
+40,Machala,El Oro,C,MAGAZINES,1565.0
+40,Machala,El Oro,C,MEATS,188732.35573
+40,Machala,El Oro,C,PERSONAL CARE,478826.0
+40,Machala,El Oro,C,PET SUPPLIES,1916.0
+40,Machala,El Oro,C,PLAYERS AND ELECTRONICS,7002.0
+40,Machala,El Oro,C,POULTRY,253726.519865
+40,Machala,El Oro,C,PREPARED FOODS,83090.0
+40,Machala,El Oro,C,PRODUCE,1132660.99135
+40,Machala,El Oro,C,SCHOOL AND OFFICE SUPPLIES,3378.0
+40,Machala,El Oro,C,SEAFOOD,5229.0
+41,Machala,El Oro,D,AUTOMOTIVE,8129.0
+41,Machala,El Oro,D,BABY CARE,48.0
+41,Machala,El Oro,D,BEAUTY,7293.0
+41,Machala,El Oro,D,BEVERAGES,2557323.0
+41,Machala,El Oro,D,BOOKS,51.0
+41,Machala,El Oro,D,BREAD/BAKERY,702064.36585
+41,Machala,El Oro,D,CELEBRATION,12252.0
+41,Machala,El Oro,D,CLEANING,1458089.0
+41,Machala,El Oro,D,DAIRY,934417.0
+41,Machala,El Oro,D,DELI,328140.282648
+41,Machala,El Oro,D,EGGS,197589.0
+41,Machala,El Oro,D,FROZEN FOODS,302045.055791
+41,Machala,El Oro,D,GROCERY I,4892960.0
+41,Machala,El Oro,D,GROCERY II,38228.0
+41,Machala,El Oro,D,HARDWARE,1296.0
+41,Machala,El Oro,D,HOME AND KITCHEN I,28352.0
+41,Machala,El Oro,D,HOME AND KITCHEN II,32662.0
+41,Machala,El Oro,D,HOME APPLIANCES,534.0
+41,Machala,El Oro,D,HOME CARE,240868.0
+41,Machala,El Oro,D,LADIESWEAR,13527.0
+41,Machala,El Oro,D,LAWN AND GARDEN,16252.0
+41,Machala,El Oro,D,LINGERIE,14785.0
+41,Machala,El Oro,D,"LIQUOR,WINE,BEER",118958.0
+41,Machala,El Oro,D,MAGAZINES,9385.0
+41,Machala,El Oro,D,MEATS,289417.840153
+41,Machala,El Oro,D,PERSONAL CARE,438579.0
+41,Machala,El Oro,D,PET SUPPLIES,7693.0
+41,Machala,El Oro,D,PLAYERS AND ELECTRONICS,7783.0
+41,Machala,El Oro,D,POULTRY,266262.850642
+41,Machala,El Oro,D,PREPARED FOODS,100227.175002
+41,Machala,El Oro,D,PRODUCE,1951708.2958
+41,Machala,El Oro,D,SCHOOL AND OFFICE SUPPLIES,951.0
+41,Machala,El Oro,D,SEAFOOD,13169.2726984
+42,Cuenca,Azuay,D,AUTOMOTIVE,2826.0
+42,Cuenca,Azuay,D,BABY CARE,24.0
+42,Cuenca,Azuay,D,BEAUTY,3984.0
+42,Cuenca,Azuay,D,BEVERAGES,1869230.0
+42,Cuenca,Azuay,D,BOOKS,303.0
+42,Cuenca,Azuay,D,BREAD/BAKERY,381233.354
+42,Cuenca,Azuay,D,CELEBRATION,8729.0
+42,Cuenca,Azuay,D,CLEANING,608431.0
+42,Cuenca,Azuay,D,DAIRY,622974.0
+42,Cuenca,Azuay,D,DELI,114773.109014
+42,Cuenca,Azuay,D,EGGS,95243.0
+42,Cuenca,Azuay,D,FROZEN FOODS,119071.522044
+42,Cuenca,Azuay,D,GROCERY I,2337305.571
+42,Cuenca,Azuay,D,GROCERY II,20676.0
+42,Cuenca,Azuay,D,HARDWARE,810.0
+42,Cuenca,Azuay,D,HOME AND KITCHEN I,15432.0
+42,Cuenca,Azuay,D,HOME AND KITCHEN II,19820.0
+42,Cuenca,Azuay,D,HOME APPLIANCES,187.0
+42,Cuenca,Azuay,D,HOME CARE,157540.0
+42,Cuenca,Azuay,D,LADIESWEAR,13671.0
+42,Cuenca,Azuay,D,LAWN AND GARDEN,18950.0
+42,Cuenca,Azuay,D,LINGERIE,3315.0
+42,Cuenca,Azuay,D,"LIQUOR,WINE,BEER",57955.0
+42,Cuenca,Azuay,D,MAGAZINES,6344.0
+42,Cuenca,Azuay,D,MEATS,155331.930988
+42,Cuenca,Azuay,D,PERSONAL CARE,170813.0
+42,Cuenca,Azuay,D,PET SUPPLIES,5200.0
+42,Cuenca,Azuay,D,PLAYERS AND ELECTRONICS,6181.0
+42,Cuenca,Azuay,D,POULTRY,172139.20591
+42,Cuenca,Azuay,D,PREPARED FOODS,58120.272007
+42,Cuenca,Azuay,D,PRODUCE,1884907.4752
+42,Cuenca,Azuay,D,SCHOOL AND OFFICE SUPPLIES,411.0
+42,Cuenca,Azuay,D,SEAFOOD,13836.4449997
+43,Esmeraldas,Esmeraldas,E,AUTOMOTIVE,10041.0
+43,Esmeraldas,Esmeraldas,E,BABY CARE,76.0
+43,Esmeraldas,Esmeraldas,E,BEAUTY,2014.0
+43,Esmeraldas,Esmeraldas,E,BEVERAGES,5005531.0
+43,Esmeraldas,Esmeraldas,E,BOOKS,0.0
+43,Esmeraldas,Esmeraldas,E,BREAD/BAKERY,511667.0
+43,Esmeraldas,Esmeraldas,E,CELEBRATION,9065.0
+43,Esmeraldas,Esmeraldas,E,CLEANING,1703328.0
+43,Esmeraldas,Esmeraldas,E,DAIRY,595768.0
+43,Esmeraldas,Esmeraldas,E,DELI,393124.60002
+43,Esmeraldas,Esmeraldas,E,EGGS,236322.0
+43,Esmeraldas,Esmeraldas,E,FROZEN FOODS,85777.0171296
+43,Esmeraldas,Esmeraldas,E,GROCERY I,5552270.469
+43,Esmeraldas,Esmeraldas,E,GROCERY II,7225.0
+43,Esmeraldas,Esmeraldas,E,HARDWARE,2006.0
+43,Esmeraldas,Esmeraldas,E,HOME AND KITCHEN I,24674.0
+43,Esmeraldas,Esmeraldas,E,HOME AND KITCHEN II,16553.0
+43,Esmeraldas,Esmeraldas,E,HOME APPLIANCES,231.0
+43,Esmeraldas,Esmeraldas,E,HOME CARE,231525.0
+43,Esmeraldas,Esmeraldas,E,LADIESWEAR,0.0
+43,Esmeraldas,Esmeraldas,E,LAWN AND GARDEN,1699.0
+43,Esmeraldas,Esmeraldas,E,LINGERIE,5874.0
+43,Esmeraldas,Esmeraldas,E,"LIQUOR,WINE,BEER",152472.0
+43,Esmeraldas,Esmeraldas,E,MAGAZINES,1959.0
+43,Esmeraldas,Esmeraldas,E,MEATS,249211.436912
+43,Esmeraldas,Esmeraldas,E,PERSONAL CARE,371808.0
+43,Esmeraldas,Esmeraldas,E,PET SUPPLIES,1130.0
+43,Esmeraldas,Esmeraldas,E,PLAYERS AND ELECTRONICS,4525.0
+43,Esmeraldas,Esmeraldas,E,POULTRY,285273.2855
+43,Esmeraldas,Esmeraldas,E,PREPARED FOODS,100852.897008
+43,Esmeraldas,Esmeraldas,E,PRODUCE,825522.50634
+43,Esmeraldas,Esmeraldas,E,SCHOOL AND OFFICE SUPPLIES,2916.0
+43,Esmeraldas,Esmeraldas,E,SEAFOOD,1251.0
+44,Quito,Pichincha,A,AUTOMOTIVE,31780.0
+44,Quito,Pichincha,A,BABY CARE,0.0
+44,Quito,Pichincha,A,BEAUTY,19622.0
+44,Quito,Pichincha,A,BEVERAGES,13417859.0
+44,Quito,Pichincha,A,BOOKS,528.0
+44,Quito,Pichincha,A,BREAD/BAKERY,2333058.27847
+44,Quito,Pichincha,A,CELEBRATION,37773.0
+44,Quito,Pichincha,A,CLEANING,4308260.0
+44,Quito,Pichincha,A,DAIRY,4277954.0
+44,Quito,Pichincha,A,DELI,1004694.03797
+44,Quito,Pichincha,A,EGGS,1091864.0
+44,Quito,Pichincha,A,FROZEN FOODS,1021094.49073
+44,Quito,Pichincha,A,GROCERY I,16386055.038
+44,Quito,Pichincha,A,GROCERY II,137280.0
+44,Quito,Pichincha,A,HARDWARE,7034.0
+44,Quito,Pichincha,A,HOME AND KITCHEN I,134822.0
+44,Quito,Pichincha,A,HOME AND KITCHEN II,101678.0
+44,Quito,Pichincha,A,HOME APPLIANCES,3216.0
+44,Quito,Pichincha,A,HOME CARE,672167.0
+44,Quito,Pichincha,A,LADIESWEAR,33446.0
+44,Quito,Pichincha,A,LAWN AND GARDEN,21822.0
+44,Quito,Pichincha,A,LINGERIE,32469.0
+44,Quito,Pichincha,A,"LIQUOR,WINE,BEER",553902.0
+44,Quito,Pichincha,A,MAGAZINES,19250.0
+44,Quito,Pichincha,A,MEATS,1636611.01342
+44,Quito,Pichincha,A,PERSONAL CARE,941641.0
+44,Quito,Pichincha,A,PET SUPPLIES,34147.0
+44,Quito,Pichincha,A,PLAYERS AND ELECTRONICS,44317.0
+44,Quito,Pichincha,A,POULTRY,2086943.62568
+44,Quito,Pichincha,A,PREPARED FOODS,793011.65877
+44,Quito,Pichincha,A,PRODUCE,10666058.4784
+44,Quito,Pichincha,A,SCHOOL AND OFFICE SUPPLIES,29543.0
+44,Quito,Pichincha,A,SEAFOOD,207652.628649
+45,Quito,Pichincha,A,AUTOMOTIVE,26403.0
+45,Quito,Pichincha,A,BABY CARE,0.0
+45,Quito,Pichincha,A,BEAUTY,16781.0
+45,Quito,Pichincha,A,BEVERAGES,11370352.0
+45,Quito,Pichincha,A,BOOKS,579.0
+45,Quito,Pichincha,A,BREAD/BAKERY,1914550.61695
+45,Quito,Pichincha,A,CELEBRATION,38865.0
+45,Quito,Pichincha,A,CLEANING,4217925.0
+45,Quito,Pichincha,A,DAIRY,3550072.0
+45,Quito,Pichincha,A,DELI,1083136.8151
+45,Quito,Pichincha,A,EGGS,696315.0
+45,Quito,Pichincha,A,FROZEN FOODS,877684.280009
+45,Quito,Pichincha,A,GROCERY I,16349751.291
+45,Quito,Pichincha,A,GROCERY II,139536.0
+45,Quito,Pichincha,A,HARDWARE,1832.0
+45,Quito,Pichincha,A,HOME AND KITCHEN I,79310.0
+45,Quito,Pichincha,A,HOME AND KITCHEN II,86332.0
+45,Quito,Pichincha,A,HOME APPLIANCES,2310.0
+45,Quito,Pichincha,A,HOME CARE,687754.0
+45,Quito,Pichincha,A,LADIESWEAR,27032.0
+45,Quito,Pichincha,A,LAWN AND GARDEN,30161.0
+45,Quito,Pichincha,A,LINGERIE,8667.0
+45,Quito,Pichincha,A,"LIQUOR,WINE,BEER",350532.0
+45,Quito,Pichincha,A,MAGAZINES,14695.0
+45,Quito,Pichincha,A,MEATS,2008611.45726
+45,Quito,Pichincha,A,PERSONAL CARE,1067375.0
+45,Quito,Pichincha,A,PET SUPPLIES,22762.0
+45,Quito,Pichincha,A,PLAYERS AND ELECTRONICS,31655.0
+45,Quito,Pichincha,A,POULTRY,2144082.12702
+45,Quito,Pichincha,A,PREPARED FOODS,548190.08422
+45,Quito,Pichincha,A,PRODUCE,6913583.0567
+45,Quito,Pichincha,A,SCHOOL AND OFFICE SUPPLIES,27396.0
+45,Quito,Pichincha,A,SEAFOOD,163779.688415
+46,Quito,Pichincha,A,AUTOMOTIVE,25580.0
+46,Quito,Pichincha,A,BABY CARE,0.0
+46,Quito,Pichincha,A,BEAUTY,19901.0
+46,Quito,Pichincha,A,BEVERAGES,7861600.0
+46,Quito,Pichincha,A,BOOKS,199.0
+46,Quito,Pichincha,A,BREAD/BAKERY,1310106.13516
+46,Quito,Pichincha,A,CELEBRATION,23909.0
+46,Quito,Pichincha,A,CLEANING,3870620.0
+46,Quito,Pichincha,A,DAIRY,2406110.0
+46,Quito,Pichincha,A,DELI,1362965.68356
+46,Quito,Pichincha,A,EGGS,302358.0
+46,Quito,Pichincha,A,FROZEN FOODS,664864.59644
+46,Quito,Pichincha,A,GROCERY I,14342262.0
+46,Quito,Pichincha,A,GROCERY II,70753.0
+46,Quito,Pichincha,A,HARDWARE,2588.0
+46,Quito,Pichincha,A,HOME AND KITCHEN I,45801.0
+46,Quito,Pichincha,A,HOME AND KITCHEN II,57586.0
+46,Quito,Pichincha,A,HOME APPLIANCES,2357.0
+46,Quito,Pichincha,A,HOME CARE,715035.0
+46,Quito,Pichincha,A,LADIESWEAR,34459.0
+46,Quito,Pichincha,A,LAWN AND GARDEN,17938.0
+46,Quito,Pichincha,A,LINGERIE,13494.0
+46,Quito,Pichincha,A,"LIQUOR,WINE,BEER",202772.0
+46,Quito,Pichincha,A,MAGAZINES,7644.0
+46,Quito,Pichincha,A,MEATS,1968470.16282
+46,Quito,Pichincha,A,PERSONAL CARE,1252553.0
+46,Quito,Pichincha,A,PET SUPPLIES,22118.0
+46,Quito,Pichincha,A,PLAYERS AND ELECTRONICS,26795.0
+46,Quito,Pichincha,A,POULTRY,1696866.64589
+46,Quito,Pichincha,A,PREPARED FOODS,292184.506087
+46,Quito,Pichincha,A,PRODUCE,3169416.4056
+46,Quito,Pichincha,A,SCHOOL AND OFFICE SUPPLIES,21786.0
+46,Quito,Pichincha,A,SEAFOOD,84969.9860772
+47,Quito,Pichincha,A,AUTOMOTIVE,26930.0
+47,Quito,Pichincha,A,BABY CARE,0.0
+47,Quito,Pichincha,A,BEAUTY,20653.0
+47,Quito,Pichincha,A,BEVERAGES,10788853.0
+47,Quito,Pichincha,A,BOOKS,581.0
+47,Quito,Pichincha,A,BREAD/BAKERY,1864896.13089
+47,Quito,Pichincha,A,CELEBRATION,28690.0
+47,Quito,Pichincha,A,CLEANING,3915487.0
+47,Quito,Pichincha,A,DAIRY,3339190.0
+47,Quito,Pichincha,A,DELI,1079958.74738
+47,Quito,Pichincha,A,EGGS,600836.0
+47,Quito,Pichincha,A,FROZEN FOODS,716287.96592
+47,Quito,Pichincha,A,GROCERY I,15514528.49
+47,Quito,Pichincha,A,GROCERY II,108003.0
+47,Quito,Pichincha,A,HARDWARE,3043.0
+47,Quito,Pichincha,A,HOME AND KITCHEN I,67598.0
+47,Quito,Pichincha,A,HOME AND KITCHEN II,75063.0
+47,Quito,Pichincha,A,HOME APPLIANCES,3069.0
+47,Quito,Pichincha,A,HOME CARE,702590.0
+47,Quito,Pichincha,A,LADIESWEAR,31737.0
+47,Quito,Pichincha,A,LAWN AND GARDEN,27376.0
+47,Quito,Pichincha,A,LINGERIE,8598.0
+47,Quito,Pichincha,A,"LIQUOR,WINE,BEER",280368.0
+47,Quito,Pichincha,A,MAGAZINES,12393.0
+47,Quito,Pichincha,A,MEATS,1509934.89834
+47,Quito,Pichincha,A,PERSONAL CARE,1182880.0
+47,Quito,Pichincha,A,PET SUPPLIES,22767.0
+47,Quito,Pichincha,A,PLAYERS AND ELECTRONICS,30540.0
+47,Quito,Pichincha,A,POULTRY,1939042.00105
+47,Quito,Pichincha,A,PREPARED FOODS,486010.353086
+47,Quito,Pichincha,A,PRODUCE,6394991.1638
+47,Quito,Pichincha,A,SCHOOL AND OFFICE SUPPLIES,20888.0
+47,Quito,Pichincha,A,SEAFOOD,144527.31054
+48,Quito,Pichincha,A,AUTOMOTIVE,22793.0
+48,Quito,Pichincha,A,BABY CARE,0.0
+48,Quito,Pichincha,A,BEAUTY,17773.0
+48,Quito,Pichincha,A,BEVERAGES,6313863.0
+48,Quito,Pichincha,A,BOOKS,57.0
+48,Quito,Pichincha,A,BREAD/BAKERY,1191064.67394
+48,Quito,Pichincha,A,CELEBRATION,24101.0
+48,Quito,Pichincha,A,CLEANING,3602750.0
+48,Quito,Pichincha,A,DAIRY,2018656.0
+48,Quito,Pichincha,A,DELI,1096819.68215
+48,Quito,Pichincha,A,EGGS,239675.0
+48,Quito,Pichincha,A,FROZEN FOODS,520012.863229
+48,Quito,Pichincha,A,GROCERY I,12830994.111
+48,Quito,Pichincha,A,GROCERY II,71950.0
+48,Quito,Pichincha,A,HARDWARE,1507.0
+48,Quito,Pichincha,A,HOME AND KITCHEN I,54467.0
+48,Quito,Pichincha,A,HOME AND KITCHEN II,41125.0
+48,Quito,Pichincha,A,HOME APPLIANCES,1430.0
+48,Quito,Pichincha,A,HOME CARE,655404.0
+48,Quito,Pichincha,A,LADIESWEAR,27892.0
+48,Quito,Pichincha,A,LAWN AND GARDEN,10539.0
+48,Quito,Pichincha,A,LINGERIE,9189.0
+48,Quito,Pichincha,A,"LIQUOR,WINE,BEER",174764.0
+48,Quito,Pichincha,A,MAGAZINES,5105.0
+48,Quito,Pichincha,A,MEATS,1655114.15508
+48,Quito,Pichincha,A,PERSONAL CARE,1189326.0
+48,Quito,Pichincha,A,PET SUPPLIES,16196.0
+48,Quito,Pichincha,A,PLAYERS AND ELECTRONICS,22937.0
+48,Quito,Pichincha,A,POULTRY,1500673.48988
+48,Quito,Pichincha,A,PREPARED FOODS,221484.444933
+48,Quito,Pichincha,A,PRODUCE,2317729.3704
+48,Quito,Pichincha,A,SCHOOL AND OFFICE SUPPLIES,27275.0
+48,Quito,Pichincha,A,SEAFOOD,50463.4833245
+49,Quito,Pichincha,A,AUTOMOTIVE,17486.0
+49,Quito,Pichincha,A,BABY CARE,0.0
+49,Quito,Pichincha,A,BEAUTY,13243.0
+49,Quito,Pichincha,A,BEVERAGES,9221286.0
+49,Quito,Pichincha,A,BOOKS,454.0
+49,Quito,Pichincha,A,BREAD/BAKERY,1730652.18929
+49,Quito,Pichincha,A,CELEBRATION,34935.0
+49,Quito,Pichincha,A,CLEANING,2832581.0
+49,Quito,Pichincha,A,DAIRY,3184983.0
+49,Quito,Pichincha,A,DELI,618230.87713
+49,Quito,Pichincha,A,EGGS,724148.0
+49,Quito,Pichincha,A,FROZEN FOODS,718848.541494
+49,Quito,Pichincha,A,GROCERY I,11087980.0
+49,Quito,Pichincha,A,GROCERY II,108087.0
+49,Quito,Pichincha,A,HARDWARE,2858.0
+49,Quito,Pichincha,A,HOME AND KITCHEN I,66818.0
+49,Quito,Pichincha,A,HOME AND KITCHEN II,43614.0
+49,Quito,Pichincha,A,HOME APPLIANCES,1684.0
+49,Quito,Pichincha,A,HOME CARE,482693.0
+49,Quito,Pichincha,A,LADIESWEAR,18013.0
+49,Quito,Pichincha,A,LAWN AND GARDEN,28236.0
+49,Quito,Pichincha,A,LINGERIE,15358.0
+49,Quito,Pichincha,A,"LIQUOR,WINE,BEER",366079.0
+49,Quito,Pichincha,A,MAGAZINES,14214.0
+49,Quito,Pichincha,A,MEATS,1225518.31191
+49,Quito,Pichincha,A,PERSONAL CARE,662231.0
+49,Quito,Pichincha,A,PET SUPPLIES,17411.0
+49,Quito,Pichincha,A,PLAYERS AND ELECTRONICS,34163.0
+49,Quito,Pichincha,A,POULTRY,1470728.64314
+49,Quito,Pichincha,A,PREPARED FOODS,500341.38204
+49,Quito,Pichincha,A,PRODUCE,8017967.2463
+49,Quito,Pichincha,A,SCHOOL AND OFFICE SUPPLIES,15022.0
+49,Quito,Pichincha,A,SEAFOOD,144231.592464
+50,Ambato,Tungurahua,A,AUTOMOTIVE,19578.0
+50,Ambato,Tungurahua,A,BABY CARE,0.0
+50,Ambato,Tungurahua,A,BEAUTY,12959.0
+50,Ambato,Tungurahua,A,BEVERAGES,5424434.0
+50,Ambato,Tungurahua,A,BOOKS,291.0
+50,Ambato,Tungurahua,A,BREAD/BAKERY,973248.63899
+50,Ambato,Tungurahua,A,CELEBRATION,37252.0
+50,Ambato,Tungurahua,A,CLEANING,2700334.0
+50,Ambato,Tungurahua,A,DAIRY,1691412.0
+50,Ambato,Tungurahua,A,DELI,773304.3933
+50,Ambato,Tungurahua,A,EGGS,193274.0
+50,Ambato,Tungurahua,A,FROZEN FOODS,445048.992011
+50,Ambato,Tungurahua,A,GROCERY I,10121781.295
+50,Ambato,Tungurahua,A,GROCERY II,78266.0
+50,Ambato,Tungurahua,A,HARDWARE,2541.0
+50,Ambato,Tungurahua,A,HOME AND KITCHEN I,82359.0
+50,Ambato,Tungurahua,A,HOME AND KITCHEN II,75537.0
+50,Ambato,Tungurahua,A,HOME APPLIANCES,1092.0
+50,Ambato,Tungurahua,A,HOME CARE,453522.0
+50,Ambato,Tungurahua,A,LADIESWEAR,22148.0
+50,Ambato,Tungurahua,A,LAWN AND GARDEN,8670.0
+50,Ambato,Tungurahua,A,LINGERIE,10408.0
+50,Ambato,Tungurahua,A,"LIQUOR,WINE,BEER",190695.0
+50,Ambato,Tungurahua,A,MAGAZINES,7858.0
+50,Ambato,Tungurahua,A,MEATS,1037095.79072
+50,Ambato,Tungurahua,A,PERSONAL CARE,825048.0
+50,Ambato,Tungurahua,A,PET SUPPLIES,9478.0
+50,Ambato,Tungurahua,A,PLAYERS AND ELECTRONICS,23875.0
+50,Ambato,Tungurahua,A,POULTRY,737513.39526
+50,Ambato,Tungurahua,A,PREPARED FOODS,207009.566999
+50,Ambato,Tungurahua,A,PRODUCE,2428159.1139
+50,Ambato,Tungurahua,A,SCHOOL AND OFFICE SUPPLIES,18947.0
+50,Ambato,Tungurahua,A,SEAFOOD,39881.4385153
+51,Guayaquil,Guayas,A,AUTOMOTIVE,11776.0
+51,Guayaquil,Guayas,A,BABY CARE,0.0
+51,Guayaquil,Guayas,A,BEAUTY,8106.0
+51,Guayaquil,Guayas,A,BEVERAGES,6872756.0
+51,Guayaquil,Guayas,A,BOOKS,259.0
+51,Guayaquil,Guayas,A,BREAD/BAKERY,1438229.67455
+51,Guayaquil,Guayas,A,CELEBRATION,16164.0
+51,Guayaquil,Guayas,A,CLEANING,2446406.0
+51,Guayaquil,Guayas,A,DAIRY,2460441.0
+51,Guayaquil,Guayas,A,DELI,436009.4755
+51,Guayaquil,Guayas,A,EGGS,564749.0
+51,Guayaquil,Guayas,A,FROZEN FOODS,551355.52716
+51,Guayaquil,Guayas,A,GROCERY I,8233707.0
+51,Guayaquil,Guayas,A,GROCERY II,53548.0
+51,Guayaquil,Guayas,A,HARDWARE,2393.0
+51,Guayaquil,Guayas,A,HOME AND KITCHEN I,35071.0
+51,Guayaquil,Guayas,A,HOME AND KITCHEN II,33946.0
+51,Guayaquil,Guayas,A,HOME APPLIANCES,1816.0
+51,Guayaquil,Guayas,A,HOME CARE,338775.0
+51,Guayaquil,Guayas,A,LADIESWEAR,4302.0
+51,Guayaquil,Guayas,A,LAWN AND GARDEN,29167.0
+51,Guayaquil,Guayas,A,LINGERIE,11163.0
+51,Guayaquil,Guayas,A,"LIQUOR,WINE,BEER",270015.0
+51,Guayaquil,Guayas,A,MAGAZINES,9816.0
+51,Guayaquil,Guayas,A,MEATS,1072030.28645
+51,Guayaquil,Guayas,A,PERSONAL CARE,484158.0
+51,Guayaquil,Guayas,A,PET SUPPLIES,18580.0
+51,Guayaquil,Guayas,A,PLAYERS AND ELECTRONICS,12041.0
+51,Guayaquil,Guayas,A,POULTRY,1423296.30317
+51,Guayaquil,Guayas,A,PREPARED FOODS,285150.308672
+51,Guayaquil,Guayas,A,PRODUCE,5665150.3702
+51,Guayaquil,Guayas,A,SCHOOL AND OFFICE SUPPLIES,10200.0
+51,Guayaquil,Guayas,A,SEAFOOD,110912.591902
+52,Manta,Manabi,A,AUTOMOTIVE,1497.0
+52,Manta,Manabi,A,BABY CARE,0.0
+52,Manta,Manabi,A,BEAUTY,972.0
+52,Manta,Manabi,A,BEVERAGES,537796.0
+52,Manta,Manabi,A,BOOKS,0.0
+52,Manta,Manabi,A,BREAD/BAKERY,97520.8371
+52,Manta,Manabi,A,CELEBRATION,1343.0
+52,Manta,Manabi,A,CLEANING,201411.0
+52,Manta,Manabi,A,DAIRY,140584.0
+52,Manta,Manabi,A,DELI,44664.42396
+52,Manta,Manabi,A,EGGS,25002.0
+52,Manta,Manabi,A,FROZEN FOODS,40622.09002
+52,Manta,Manabi,A,GROCERY I,736213.0
+52,Manta,Manabi,A,GROCERY II,5672.0
+52,Manta,Manabi,A,HARDWARE,395.0
+52,Manta,Manabi,A,HOME AND KITCHEN I,6926.0
+52,Manta,Manabi,A,HOME AND KITCHEN II,6271.0
+52,Manta,Manabi,A,HOME APPLIANCES,117.0
+52,Manta,Manabi,A,HOME CARE,44347.0
+52,Manta,Manabi,A,LADIESWEAR,1264.0
+52,Manta,Manabi,A,LAWN AND GARDEN,7706.0
+52,Manta,Manabi,A,LINGERIE,1003.0
+52,Manta,Manabi,A,"LIQUOR,WINE,BEER",24750.0
+52,Manta,Manabi,A,MAGAZINES,1247.0
+52,Manta,Manabi,A,MEATS,59378.91995
+52,Manta,Manabi,A,PERSONAL CARE,45450.0
+52,Manta,Manabi,A,PET SUPPLIES,1741.0
+52,Manta,Manabi,A,PLAYERS AND ELECTRONICS,3353.0
+52,Manta,Manabi,A,POULTRY,58363.06689
+52,Manta,Manabi,A,PREPARED FOODS,15951.20603
+52,Manta,Manabi,A,PRODUCE,581157.7133
+52,Manta,Manabi,A,SCHOOL AND OFFICE SUPPLIES,2232.0
+52,Manta,Manabi,A,SEAFOOD,1219.475999
+53,Manta,Manabi,D,AUTOMOTIVE,7962.0
+53,Manta,Manabi,D,BABY CARE,22.0
+53,Manta,Manabi,D,BEAUTY,5650.0
+53,Manta,Manabi,D,BEVERAGES,2092799.0
+53,Manta,Manabi,D,BOOKS,77.0
+53,Manta,Manabi,D,BREAD/BAKERY,523932.15602
+53,Manta,Manabi,D,CELEBRATION,8820.0
+53,Manta,Manabi,D,CLEANING,1069862.0
+53,Manta,Manabi,D,DAIRY,574152.0
+53,Manta,Manabi,D,DELI,246241.90649
+53,Manta,Manabi,D,EGGS,108301.0
+53,Manta,Manabi,D,FROZEN FOODS,190765.640213
+53,Manta,Manabi,D,GROCERY I,3211885.0
+53,Manta,Manabi,D,GROCERY II,17365.0
+53,Manta,Manabi,D,HARDWARE,1535.0
+53,Manta,Manabi,D,HOME AND KITCHEN I,23759.0
+53,Manta,Manabi,D,HOME AND KITCHEN II,22959.0
+53,Manta,Manabi,D,HOME APPLIANCES,151.0
+53,Manta,Manabi,D,HOME CARE,195447.0
+53,Manta,Manabi,D,LADIESWEAR,4465.0
+53,Manta,Manabi,D,LAWN AND GARDEN,6098.0
+53,Manta,Manabi,D,LINGERIE,8182.0
+53,Manta,Manabi,D,"LIQUOR,WINE,BEER",116026.0
+53,Manta,Manabi,D,MAGAZINES,3501.0
+53,Manta,Manabi,D,MEATS,281787.0382179
+53,Manta,Manabi,D,PERSONAL CARE,294072.0
+53,Manta,Manabi,D,PET SUPPLIES,3519.0
+53,Manta,Manabi,D,PLAYERS AND ELECTRONICS,5848.0
+53,Manta,Manabi,D,POULTRY,230921.726508
+53,Manta,Manabi,D,PREPARED FOODS,84215.827034
+53,Manta,Manabi,D,PRODUCE,1868028.4991
+53,Manta,Manabi,D,SCHOOL AND OFFICE SUPPLIES,1268.0
+53,Manta,Manabi,D,SEAFOOD,6549.4891002
+54,El Carmen,Manabi,C,AUTOMOTIVE,9526.0
+54,El Carmen,Manabi,C,BABY CARE,303.0
+54,El Carmen,Manabi,C,BEAUTY,1057.0
+54,El Carmen,Manabi,C,BEVERAGES,2165045.0
+54,El Carmen,Manabi,C,BOOKS,0.0
+54,El Carmen,Manabi,C,BREAD/BAKERY,367981.0
+54,El Carmen,Manabi,C,CELEBRATION,4937.0
+54,El Carmen,Manabi,C,CLEANING,1751763.0
+54,El Carmen,Manabi,C,DAIRY,303271.0
+54,El Carmen,Manabi,C,DELI,309642.409
+54,El Carmen,Manabi,C,EGGS,118927.0
+54,El Carmen,Manabi,C,FROZEN FOODS,56922.0289812
+54,El Carmen,Manabi,C,GROCERY I,4450789.795
+54,El Carmen,Manabi,C,GROCERY II,13406.0
+54,El Carmen,Manabi,C,HARDWARE,1191.0
+54,El Carmen,Manabi,C,HOME AND KITCHEN I,25170.0
+54,El Carmen,Manabi,C,HOME AND KITCHEN II,14625.0
+54,El Carmen,Manabi,C,HOME APPLIANCES,305.0
+54,El Carmen,Manabi,C,HOME CARE,224474.0
+54,El Carmen,Manabi,C,LADIESWEAR,0.0
+54,El Carmen,Manabi,C,LAWN AND GARDEN,0.0
+54,El Carmen,Manabi,C,LINGERIE,7240.0
+54,El Carmen,Manabi,C,"LIQUOR,WINE,BEER",40191.0
+54,El Carmen,Manabi,C,MAGAZINES,763.0
+54,El Carmen,Manabi,C,MEATS,87712.758362
+54,El Carmen,Manabi,C,PERSONAL CARE,306632.0
+54,El Carmen,Manabi,C,PET SUPPLIES,172.0
+54,El Carmen,Manabi,C,PLAYERS AND ELECTRONICS,3316.0
+54,El Carmen,Manabi,C,POULTRY,88889.8121917
+54,El Carmen,Manabi,C,PREPARED FOODS,103090.0
+54,El Carmen,Manabi,C,PRODUCE,596180.31437
+54,El Carmen,Manabi,C,SCHOOL AND OFFICE SUPPLIES,1023.0
+54,El Carmen,Manabi,C,SEAFOOD,2938.0
