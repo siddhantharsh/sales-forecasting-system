@@ -341,21 +341,20 @@ elif page == "🤖 Model Performance":
     """)
 
     # Actual results from notebook evaluation on 90-day holdout
-    # Random Forest result post leakage-fix (rolling/EMA features now shifted by 1 day)
+    # Random Forest: recursive 90-day forecast, rolling/EMA features shifted by 1 day
     models = {
         'Naive Forecast':   {'MAPE': 14.72},
         'Seasonal Naive':   {'MAPE': 10.06},
         'Moving Average':   {'MAPE': 15.74},
         'ARIMA (2,1,2)':    {'MAPE': 15.82},
-        'SARIMA (1,1,1)x(1,1,1,7)': {'MAPE': 7.72},
-        'Prophet':          {'MAPE': 7.39},
-        'Random Forest*':   {'MAPE': None},  # rerun notebook to get post-fix value
+        'SARIMA (1,1,1)x(1,1,1,7)': {'MAPE': 7.70},
+        'Prophet':          {'MAPE': 7.43},
+        'Random Forest':    {'MAPE': 5.70},
     }
     
     results_df = pd.DataFrame(models).T
     results_df = results_df.sort_values('MAPE', na_position='last')
 
-    st.caption('\* Random Forest MAPE shown as N/A until notebook is re-run with the leakage-fixed features.')
 
     # Display metrics table
     st.subheader('Model Metrics Comparison')

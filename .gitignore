@@ -39,3 +39,4 @@ build/
 .coverage
 htmlcov/
 .ipynb_checkpoints/
+data/

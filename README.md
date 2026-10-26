@@ -130,27 +130,28 @@ For retail inventory management, MAPE directly translates to inventory buffer re
 
 **Model Performance Summary** (Test Set — Last 90 Days, Kaggle Store Sales dataset):
 
-| Model | MAPE (%) | Notes |
-|-------|----------|-------|
-| Prophet | **7.39** | Best model |
-| SARIMA (1,1,1)(1,1,1,7) | 7.72 | |
-| Seasonal Naive | 10.06 | Baseline |
-| Naive Forecast | 14.72 | Baseline |
-| Moving Average (30-day) | 15.74 | |
-| ARIMA (2,1,2) | 15.82 | |
-| Random Forest | — | Re-run notebook after leakage fix |
+| Model | MAE ($) | RMSE ($) | MAPE (%) | Notes |
+|-------|---------|----------|----------|-------|
+| Random Forest (recursive 90-day) | 51,299 | 69,820 | **5.70** | Best model; forecast fed its own predictions |
+| Random Forest (one-day-ahead) | 49,782 | 67,783 | 5.66 | Uses true previous-day sales; not comparable to the rows below |
+| Prophet | 66,610 | 91,134 | 7.43 | Best 90-day statistical model |
+| SARIMA (1,1,1)(1,1,1,7) | 66,802 | 87,526 | 7.70 | |
+| Seasonal Naive | 93,468 | 130,809 | 10.06 | Baseline |
+| Naive Forecast | 129,318 | 164,712 | 14.72 | Baseline |
+| Moving Average (30-day) | 134,884 | 164,172 | 15.74 | |
+| ARIMA (2,1,2) | 135,322 | 164,452 | 15.82 | |
 
-> MAE and RMSE columns are omitted: they are denominated in the dataset's sales
-> unit and are only meaningful when read alongside the raw data file.
+> All figures are produced by `forecasting_notebook.ipynb` on the Kaggle Store Sales
+> data aggregated to daily totals (single 90-day holdout, 2017-05-17 to 2017-08-15).
 
-**Best Model**: Prophet — 7.39% MAPE on the 90-day holdout, vs 10.06% for the Seasonal Naive baseline (26% relative improvement).
+**Best Model**: Random Forest — 5.70% MAPE on the 90-day holdout when forecast recursively, vs 10.06% for the Seasonal Naive baseline (43% relative improvement). Best statistical model: Prophet at 7.43%.
 
 **Key Insights**:
-1. Prophet outperforms all statistical models on this holdout (7.39% vs 7.72% SARIMA), benefiting from automatic holiday handling and multiplicative seasonality
+1. Random Forest with lagged, rolling and EMA features (all shifted so a row only sees data up to the previous day) beats every statistical model; Prophet (7.43%) and SARIMA (7.70%) are close behind and well ahead of Seasonal Naive
 2. SARIMA captures weekly seasonality well and is the strongest purely statistical model
 3. ARIMA without seasonal terms performs near the Naive baseline on this dataset
-4. Random Forest initially showed 3.92% MAPE but this was due to data leakage (rolling/EMA features computed from same-day sales without a time shift); results are invalidated and must be regenerated after the fix
-5. Both Prophet and SARIMA beat the Seasonal Naive baseline by ~2.3 percentage points (26% relative reduction)
+4. Random Forest initially showed 3.92% MAPE because rolling/EMA features were computed from same-day sales without a time shift (data leakage). After shifting them by one day it scores 5.66% one-day-ahead and 5.70% when rolled forward recursively over 90 days. The recursive eval still uses the actual promotion and holiday flags for the test period
+5. Prophet and SARIMA beat the Seasonal Naive baseline by ~2.4-2.6 percentage points (~26% relative reduction)
 
 **Limitations**:
 - Univariate approach: does not leverage store-level or product-category-level patterns
@@ -158,7 +159,7 @@ For retail inventory management, MAPE directly translates to inventory buffer re
 - Limited external features: oil prices and store characteristics not incorporated
 - Forecast horizon: optimised for the 90-day holdout; accuracy at longer horizons is untested
 - Single holdout: walk-forward validation (rolling-window refit) was not implemented; a single 90-day holdout may not fully represent production accuracy
-- Random Forest result pending re-evaluation after leakage fix
+- Random Forest relies on known future promotion/holiday flags; with unknown future promotions its accuracy would be lower
 
 ## Business / Real-World Impact
 
